@@ -11,6 +11,8 @@ major_events['Data'] = pd.to_datetime(major_events['Data'], format='%Y-%m-%d')
 # Adicionar coluna 'ME' ao dataset basquet (1 se for um evento major, 0 caso contrário)
 basquet['ME'] = basquet['Data'].isin(major_events['Data']).astype(int)
 
+
+
 # Salvar novo dataset atualizado, se necessário
 basquet.to_csv("basquet_com_ME.csv", index=False)
 
