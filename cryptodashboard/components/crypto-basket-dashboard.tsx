@@ -185,7 +185,6 @@ const prediction1yChange = prediction1y && basketValue
           <div className="flex flex-col md:flex-row justify-between gap-4 items-start md:items-center">
             <div>
               <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
-              <p className="text-muted-foreground">Top 10 criptomoedas baseado em market cap (sem stable coins)</p>
             </div>
             <div className="flex items-center gap-2">
             </div>
