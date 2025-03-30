@@ -1,6 +1,11 @@
 "use client"
 
-import { fetchLatestBasketClose, fetchAllCryptoData, calculateBasketPerformance } from "@/lib/data-service"
+import {
+  fetchLatestBasketClose,
+  fetchAllCryptoData,
+  calculateBasketPerformance,
+  fetchBasketPrediction, // 👈 ADICIONA isto aqui!
+} from "@/lib/data-service"
 import { useState, useEffect } from "react"
 import {
   ArrowDown,
@@ -65,7 +70,11 @@ export function CryptoBasketDashboard() {
     prediction7d: 0,
     bestPerformer: { symbol: "ETH", change: 0 },
     worstPerformer: { symbol: "XRP", change: 0 },
+    
   })
+  const [prediction7d, setPrediction7d] = useState<number | null>(null)
+  const [prediction6m, setPrediction6m] = useState<number | null>(null)
+  const [prediction1y, setPrediction1y] = useState<number | null>(null)
   const [loading, setLoading] = useState(true)
   const [lastUpdated, setLastUpdated] = useState(new Date())
 
@@ -76,6 +85,15 @@ export function CryptoBasketDashboard() {
         const cryptoData = await fetchAllCryptoData()
         const performanceData = calculateBasketPerformance(cryptoData)
         setPerformance(performanceData)
+
+        const p7d = await fetchBasketPrediction(7)
+        const p6m = await fetchBasketPrediction(180)
+        const p1y = await fetchBasketPrediction(365)
+
+        setPrediction7d(p7d)
+        setPrediction6m(p6m)
+        setPrediction1y(p1y)
+
 
         const latestBasketClose = await fetchLatestBasketClose()
         setBasketValue(latestBasketClose)
@@ -193,38 +211,32 @@ export function CryptoBasketDashboard() {
             </Card>
 
             {/* Melhor e Pior Performer */}
-            <Card>
+              <Card>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Melhor Performer</CardTitle>
-                <BarChart3 className="h-4 w-4 text-muted-foreground" />
+                <CardTitle className="text-sm font-medium">Previsão (6 meses)</CardTitle>
+                <LineChart className="h-4 w-4 text-muted-foreground" />
               </CardHeader>
               <CardContent>
-                <div className="flex items-center gap-2">
-                  <CryptoLogo symbol={performance.bestPerformer.symbol} />
-                  <div className="text-2xl font-bold">{performance.bestPerformer.symbol}</div>
+                <div className="text-2xl font-bold">
+                  {prediction6m ? `$${prediction6m.toLocaleString()}` : "Carregando..."}
                 </div>
-                <div className="flex items-center text-sm text-green-500 mt-1">
-                  <ArrowUp className="mr-1 h-4 w-4" />
-                  <span>+{performance.bestPerformer.change}%</span>
-                </div>
+                <div className="text-muted-foreground text-sm">Estimativa para 180 dias</div>
               </CardContent>
             </Card>
+
             <Card>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Pior Performer</CardTitle>
-                <CandlestickChart className="h-4 w-4 text-muted-foreground" />
+                <CardTitle className="text-sm font-medium">Previsão (1 ano)</CardTitle>
+                <LineChart className="h-4 w-4 text-muted-foreground" />
               </CardHeader>
               <CardContent>
-                <div className="flex items-center gap-2">
-                  <CryptoLogo symbol={performance.worstPerformer.symbol} />
-                  <div className="text-2xl font-bold">{performance.worstPerformer.symbol}</div>
+                <div className="text-2xl font-bold">
+                  {prediction1y ? `$${prediction1y.toLocaleString()}` : "Carregando..."}
                 </div>
-                <div className="flex items-center text-sm text-red-500 mt-1">
-                  <ArrowDown className="mr-1 h-4 w-4" />
-                  <span>{performance.worstPerformer.change}%</span>
-                </div>
+                <div className="text-muted-foreground text-sm">Estimativa para 365 dias</div>
               </CardContent>
             </Card>
+
           </div>
 
           <Tabs defaultValue="allocation" className="space-y-4">

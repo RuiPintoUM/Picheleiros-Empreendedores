@@ -1,4 +1,6 @@
 import Papa from "papaparse"
+import { fetchBasketPrediction } from "@/lib/data-service"
+
 
 // URLs for the CSV files
 const DATA_URLS = {
@@ -254,5 +256,27 @@ export async function fetchLatestBasketClose(): Promise<number> {
   } catch (err) {
     console.error("Erro ao buscar valor total do basket:", err)
     return 0
+  }
+}
+
+// Função genérica para buscar a previsão real do basket para N dias
+export async function fetchBasketPrediction(days: number): Promise<number | null> {
+  try {
+    const res = await fetch("http://localhost:5000/api/predict", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ days }),
+    })
+
+    if (!res.ok) throw new Error("Erro ao buscar previsão real")
+
+    const data = await res.json()
+
+    // Pegamos o último valor previsto no array
+    const ultimo = data.findLast((item: any) => item.previsto !== null)
+    return ultimo ? ultimo.previsto : null
+  } catch (err) {
+    console.error("Erro ao buscar previsão do basket:", err)
+    return null
   }
 }
