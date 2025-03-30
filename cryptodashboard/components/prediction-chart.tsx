@@ -1,9 +1,18 @@
 "use client"
 
 import { useTheme } from "next-themes"
-import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend } from "recharts"
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+  Legend,
+} from "recharts"
 import { useEffect, useState } from "react"
-import { fetchBasketData, processPredictionData } from "@/lib/data-service"
+import { fetchRealPrediction } from "@/lib/data-service" // ✅ NOVO IMPORT
 
 interface PredictionChartProps {
   timeframe: string
@@ -19,31 +28,12 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
     async function loadData() {
       setLoading(true)
       try {
-        const basketData = await fetchBasketData()
-        const chartData = processPredictionData(basketData, timeframe)
-
-        // Add prediction data
-        const lastActualIndex = chartData.findIndex((item) => item.atual !== null)
-        const lastActualValue = chartData[lastActualIndex]?.atual || 0
-
-        // Simple prediction algorithm
-        const predictionData = chartData.map((item, index) => {
-          if (index > lastActualIndex) {
-            const daysSinceLastActual = index - lastActualIndex
-            const randomFactor = 1 + (Math.random() * 0.02 - 0.005) * daysSinceLastActual
-            return {
-              ...item,
-              previsto: Number.parseFloat((lastActualValue * randomFactor).toFixed(2)),
-            }
-          }
-          return item
-        })
-
+        // ✅ Usando dados reais da API
+        const predictionData = await fetchRealPrediction(7)
         setData(predictionData)
       } catch (error) {
-        console.error("Error loading prediction data:", error)
-        // Fallback to generated data
-        setData(generateFallbackData(timeframe))
+        console.error("Erro ao carregar previsões reais:", error)
+        setData(generateFallbackData())
       } finally {
         setLoading(false)
       }
@@ -52,31 +42,27 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
     loadData()
   }, [timeframe])
 
-  // Fallback data generator in case API fails
-  const generateFallbackData = (timeframe: string) => {
+  // ✅ Fallback em caso de falha na API
+  const generateFallbackData = () => {
+    const days = 7
     const data = []
-    const days = timeframe === "24h" ? 24 : timeframe === "7d" ? 7 : timeframe === "30d" ? 30 : 90
-
     let baseValue = 4200
     let predictedValue = 4200
 
     for (let i = 0; i <= days; i++) {
-      // Dados históricos
       if (i < days / 2) {
         const randomChange = Math.random() * 100 - 50
-        baseValue = baseValue + randomChange
+        baseValue += randomChange
         data.push({
-          name: timeframe === "24h" ? `${i}h` : `Dia ${i}`,
+          name: `Dia ${i}`,
           atual: baseValue.toFixed(2),
           previsto: null,
         })
-      }
-      // Dados de previsão
-      else {
-        const randomChange = Math.random() * 150 - 30 // Tendência de alta
-        predictedValue = predictedValue + randomChange
+      } else {
+        const randomChange = Math.random() * 150 - 30
+        predictedValue += randomChange
         data.push({
-          name: timeframe === "24h" ? `${i}h` : `Dia ${i}`,
+          name: `Dia ${i}`,
           atual: i === days / 2 ? baseValue.toFixed(2) : null,
           previsto: predictedValue.toFixed(2),
         })
@@ -87,7 +73,11 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
   }
 
   if (loading) {
-    return <div className="w-full h-[400px] flex items-center justify-center">Carregando dados...</div>
+    return (
+      <div className="w-full h-[400px] flex items-center justify-center">
+        Carregando dados...
+      </div>
+    )
   }
 
   return (
@@ -95,12 +85,7 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
       <ResponsiveContainer width="100%" height="100%">
         <LineChart
           data={data}
-          margin={{
-            top: 20,
-            right: 30,
-            left: 20,
-            bottom: 10,
-          }}
+          margin={{ top: 20, right: 30, left: 20, bottom: 10 }}
         >
           <CartesianGrid strokeDasharray="3 3" stroke={isDark ? "#333" : "#eee"} />
           <XAxis dataKey="name" stroke={isDark ? "#888" : "#666"} tick={{ fill: isDark ? "#888" : "#666" }} />
@@ -143,4 +128,3 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
     </div>
   )
 }
-

@@ -293,3 +293,28 @@ export function calculateBasketPerformance(cryptoData: Record<string, CryptoData
   }
 }
 
+// 🔮 Função para buscar previsões reais do modelo Python via API Flask
+export async function fetchRealPrediction(days: number = 7): Promise<
+  { name: string; atual: number | null; previsto: number | null }[]
+> {
+  try {
+    const res = await fetch("http://localhost:5000/api/predict", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({ days })
+    })
+
+    if (!res.ok) {
+      throw new Error("Erro ao buscar previsão real")
+    }
+
+    return await res.json()
+  } catch (error) {
+    console.error("Erro na previsão real:", error)
+    return []
+  }
+}
+
+
