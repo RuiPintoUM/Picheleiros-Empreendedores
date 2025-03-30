@@ -178,19 +178,6 @@ export function CryptoTable() {
               {crypto.prediction7d}%
             </TableCell>
             <TableCell>
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <Button variant="ghost" size="icon">
-                    <MoreHorizontal className="h-4 w-4" />
-                    <span className="sr-only">Abrir menu</span>
-                  </Button>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent align="end">
-                  <DropdownMenuItem>Ver detalhes</DropdownMenuItem>
-                  <DropdownMenuItem>Ajustar alocação</DropdownMenuItem>
-                  <DropdownMenuItem>Remover do basket</DropdownMenuItem>
-                </DropdownMenuContent>
-              </DropdownMenu>
             </TableCell>
           </TableRow>
         ))}
