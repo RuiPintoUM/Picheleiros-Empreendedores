@@ -1,0 +1,3669 @@
+<!doctype html>
+<html lang=en>
+<title>404 Not Found</title>
+<h1>Not Found</h1>
+<p>The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.</p>
+[
+  {
+    "Close_Previsto": 22462.439453125,
+    "Close_Real": 22484.82,
+    "Date": "Mon, 01 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22924.259765625,
+    "Close_Real": 22880.41,
+    "Date": "Tue, 02 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21818.689453125,
+    "Close_Real": 21802.14,
+    "Date": "Wed, 03 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22495.98046875,
+    "Close_Real": 22478.09,
+    "Date": "Thu, 04 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22452.30078125,
+    "Close_Real": 22468.77,
+    "Date": "Fri, 05 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22351.580078125,
+    "Close_Real": 22376.81,
+    "Date": "Sat, 06 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22365.740234375,
+    "Close_Real": 22350.22,
+    "Date": "Sun, 07 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23877.25,
+    "Close_Real": 23882.1,
+    "Date": "Mon, 08 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23460.9609375,
+    "Close_Real": 23468.45,
+    "Date": "Tue, 09 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23774.16015625,
+    "Close_Real": 23750.85,
+    "Date": "Wed, 10 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23618.740234375,
+    "Close_Real": 23627.37,
+    "Date": "Thu, 11 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21849.259765625,
+    "Close_Real": 21853.28,
+    "Date": "Fri, 12 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21858.939453125,
+    "Close_Real": 21856.77,
+    "Date": "Sat, 13 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21322.73046875,
+    "Close_Real": 21316.76,
+    "Date": "Sun, 14 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21710.5390625,
+    "Close_Real": 21682.0,
+    "Date": "Mon, 15 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22023.33984375,
+    "Close_Real": 22015.72,
+    "Date": "Tue, 16 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21815.7890625,
+    "Close_Real": 21799.94,
+    "Date": "Wed, 17 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21052.69921875,
+    "Close_Real": 21049.67,
+    "Date": "Thu, 18 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21226.30078125,
+    "Close_Real": 21231.48,
+    "Date": "Fri, 19 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21241.4609375,
+    "Close_Real": 21252.0,
+    "Date": "Sat, 20 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21166.109375,
+    "Close_Real": 21189.58,
+    "Date": "Sun, 21 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20136.4609375,
+    "Close_Real": 20146.32,
+    "Date": "Mon, 22 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20312.220703125,
+    "Close_Real": 20303.79,
+    "Date": "Tue, 23 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20406.759765625,
+    "Close_Real": 20418.32,
+    "Date": "Wed, 24 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20340.5703125,
+    "Close_Real": 20343.98,
+    "Date": "Thu, 25 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21284.080078125,
+    "Close_Real": 21294.34,
+    "Date": "Fri, 26 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21497.060546875,
+    "Close_Real": 21446.34,
+    "Date": "Sat, 27 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21373.970703125,
+    "Close_Real": 21402.45,
+    "Date": "Sun, 28 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22068.150390625,
+    "Close_Real": 22038.99,
+    "Date": "Mon, 29 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21899.599609375,
+    "Close_Real": 21875.36,
+    "Date": "Tue, 30 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21708.779296875,
+    "Close_Real": 21679.8,
+    "Date": "Wed, 31 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21917.16015625,
+    "Close_Real": 21929.85,
+    "Date": "Thu, 01 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21999.689453125,
+    "Close_Real": 21985.77,
+    "Date": "Fri, 02 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21841.189453125,
+    "Close_Real": 21886.83,
+    "Date": "Sat, 03 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21708.0390625,
+    "Close_Real": 21681.65,
+    "Date": "Sun, 04 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21716.98046875,
+    "Close_Real": 21720.47,
+    "Date": "Mon, 05 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21985.259765625,
+    "Close_Real": 21945.37,
+    "Date": "Tue, 06 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22574.900390625,
+    "Close_Real": 22570.9,
+    "Date": "Wed, 07 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23071.189453125,
+    "Close_Real": 23062.71,
+    "Date": "Thu, 08 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 24007.330078125,
+    "Close_Real": 23996.86,
+    "Date": "Fri, 09 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 24293.279296875,
+    "Close_Real": 24311.17,
+    "Date": "Sat, 10 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 24587.76953125,
+    "Close_Real": 24573.31,
+    "Date": "Sun, 11 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 25419.01953125,
+    "Close_Real": 25430.21,
+    "Date": "Mon, 12 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 25351.560546875,
+    "Close_Real": 25319.6,
+    "Date": "Tue, 13 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26363.119140625,
+    "Close_Real": 26384.24,
+    "Date": "Wed, 14 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26457.359375,
+    "Close_Real": 26448.66,
+    "Date": "Thu, 15 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26550.009765625,
+    "Close_Real": 26556.38,
+    "Date": "Fri, 16 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26304.259765625,
+    "Close_Real": 26304.52,
+    "Date": "Sat, 17 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26549.759765625,
+    "Close_Real": 26549.03,
+    "Date": "Sun, 18 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26374.970703125,
+    "Close_Real": 26387.75,
+    "Date": "Mon, 19 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26669.869140625,
+    "Close_Real": 26651.82,
+    "Date": "Tue, 20 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26364.19921875,
+    "Close_Real": 26423.31,
+    "Date": "Wed, 21 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26161.69921875,
+    "Close_Real": 26156.33,
+    "Date": "Thu, 22 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 25886.98046875,
+    "Close_Real": 25861.43,
+    "Date": "Fri, 23 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26277.400390625,
+    "Close_Real": 26292.94,
+    "Date": "Sat, 24 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26416.759765625,
+    "Close_Real": 26393.63,
+    "Date": "Sun, 25 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27803.650390625,
+    "Close_Real": 27799.94,
+    "Date": "Mon, 26 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29081.5390625,
+    "Close_Real": 29091.43,
+    "Date": "Tue, 27 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31832.240234375,
+    "Close_Real": 31825.47,
+    "Date": "Wed, 28 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31159.349609375,
+    "Close_Real": 31164.69,
+    "Date": "Thu, 29 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31802.369140625,
+    "Close_Real": 31801.43,
+    "Date": "Fri, 01 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31602.80078125,
+    "Close_Real": 31594.17,
+    "Date": "Sat, 02 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32157.060546875,
+    "Close_Real": 32174.18,
+    "Date": "Sun, 03 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34770.578125,
+    "Close_Real": 34778.44,
+    "Date": "Mon, 04 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32500.51953125,
+    "Close_Real": 32499.88,
+    "Date": "Tue, 05 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33702.578125,
+    "Close_Real": 33697.3,
+    "Date": "Wed, 06 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34122.55078125,
+    "Close_Real": 34118.91,
+    "Date": "Thu, 07 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34844.171875,
+    "Close_Real": 34809.87,
+    "Date": "Fri, 08 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34867.01953125,
+    "Close_Real": 34913.06,
+    "Date": "Sat, 09 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35179.33984375,
+    "Close_Real": 35170.46,
+    "Date": "Sun, 10 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36747.421875,
+    "Close_Real": 36751.98,
+    "Date": "Mon, 11 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36412.4296875,
+    "Close_Real": 36417.88,
+    "Date": "Tue, 12 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37210.9609375,
+    "Close_Real": 37229.38,
+    "Date": "Wed, 13 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36362.4609375,
+    "Close_Real": 36365.19,
+    "Date": "Thu, 14 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35348.3203125,
+    "Close_Real": 35347.18,
+    "Date": "Fri, 15 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33270.1796875,
+    "Close_Real": 33265.42,
+    "Date": "Sat, 16 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34812.3984375,
+    "Close_Real": 34822.99,
+    "Date": "Sun, 17 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34359.37109375,
+    "Close_Real": 34380.76,
+    "Date": "Mon, 18 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31502.5390625,
+    "Close_Real": 31501.0,
+    "Date": "Tue, 19 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34477.2109375,
+    "Close_Real": 34562.47,
+    "Date": "Wed, 20 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33382.171875,
+    "Close_Real": 33347.24,
+    "Date": "Thu, 21 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32455.470703125,
+    "Close_Real": 32465.1,
+    "Date": "Fri, 22 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32616.640625,
+    "Close_Real": 32607.21,
+    "Date": "Sat, 23 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34229.55859375,
+    "Close_Real": 34213.6,
+    "Date": "Sun, 24 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35577.33984375,
+    "Close_Real": 35599.18,
+    "Date": "Mon, 25 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35596.9609375,
+    "Close_Real": 35612.81,
+    "Date": "Tue, 26 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35347.0390625,
+    "Close_Real": 35332.01,
+    "Date": "Wed, 27 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35984.37109375,
+    "Close_Real": 35987.29,
+    "Date": "Thu, 28 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35554.87890625,
+    "Close_Real": 35555.2,
+    "Date": "Fri, 29 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35457.890625,
+    "Close_Real": 35430.23,
+    "Date": "Sat, 30 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36303.71875,
+    "Close_Real": 36297.57,
+    "Date": "Sun, 31 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35459.23828125,
+    "Close_Real": 35456.6,
+    "Date": "Mon, 01 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33272.62890625,
+    "Close_Real": 33290.44,
+    "Date": "Tue, 02 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33555.7109375,
+    "Close_Real": 33563.71,
+    "Date": "Wed, 03 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34851.5390625,
+    "Close_Real": 34832.05,
+    "Date": "Thu, 04 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34533.19140625,
+    "Close_Real": 34493.79,
+    "Date": "Fri, 05 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35023.62890625,
+    "Close_Real": 35029.32,
+    "Date": "Sat, 06 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35265.53125,
+    "Close_Real": 35278.38,
+    "Date": "Sun, 07 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36453.8984375,
+    "Close_Real": 36451.7,
+    "Date": "Mon, 08 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35164.828125,
+    "Close_Real": 35174.31,
+    "Date": "Tue, 09 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35923.921875,
+    "Close_Real": 35906.71,
+    "Date": "Wed, 10 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35629.23828125,
+    "Close_Real": 35636.57,
+    "Date": "Thu, 11 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34155.2109375,
+    "Close_Real": 34160.72,
+    "Date": "Fri, 12 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32402.619140625,
+    "Close_Real": 32432.13,
+    "Date": "Sat, 13 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33418.98828125,
+    "Close_Real": 33416.47,
+    "Date": "Sun, 14 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32268.4296875,
+    "Close_Real": 32249.85,
+    "Date": "Mon, 15 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32426.25,
+    "Close_Real": 32438.99,
+    "Date": "Tue, 16 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31164.220703125,
+    "Close_Real": 31154.93,
+    "Date": "Wed, 17 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32298.890625,
+    "Close_Real": 32287.57,
+    "Date": "Thu, 18 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32426.4609375,
+    "Close_Real": 32452.09,
+    "Date": "Fri, 19 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33046.69140625,
+    "Close_Real": 33044.67,
+    "Date": "Sat, 20 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33028.41015625,
+    "Close_Real": 33009.52,
+    "Date": "Sun, 21 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33967.4296875,
+    "Close_Real": 33975.72,
+    "Date": "Mon, 22 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33737.359375,
+    "Close_Real": 33763.39,
+    "Date": "Tue, 23 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32690.7890625,
+    "Close_Real": 32685.1,
+    "Date": "Wed, 24 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32783.48046875,
+    "Close_Real": 32790.39,
+    "Date": "Thu, 25 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32205.6796875,
+    "Close_Real": 32421.71,
+    "Date": "Fri, 26 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31916.580078125,
+    "Close_Real": 32273.12,
+    "Date": "Sat, 27 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32002.439453125,
+    "Close_Real": 32121.95,
+    "Date": "Sun, 28 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32572.439453125,
+    "Close_Real": 32477.88,
+    "Date": "Mon, 29 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31236.359375,
+    "Close_Real": 30841.82,
+    "Date": "Tue, 30 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29523.380859375,
+    "Close_Real": 29642.97,
+    "Date": "Wed, 01 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29704.689453125,
+    "Close_Real": 30080.73,
+    "Date": "Thu, 02 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31491.099609375,
+    "Close_Real": 31984.29,
+    "Date": "Fri, 03 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32533.69921875,
+    "Close_Real": 32487.41,
+    "Date": "Sat, 04 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32782.01171875,
+    "Close_Real": 32560.74,
+    "Date": "Sun, 05 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32265.0,
+    "Close_Real": 32114.37,
+    "Date": "Mon, 06 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31740.490234375,
+    "Close_Real": 31690.91,
+    "Date": "Tue, 07 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31368.76953125,
+    "Close_Real": 31112.55,
+    "Date": "Wed, 08 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32277.919921875,
+    "Close_Real": 32054.55,
+    "Date": "Thu, 09 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31204.470703125,
+    "Close_Real": 30904.78,
+    "Date": "Fri, 10 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30838.900390625,
+    "Close_Real": 30905.88,
+    "Date": "Sat, 11 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31053.470703125,
+    "Close_Real": 31236.01,
+    "Date": "Sun, 12 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31860.890625,
+    "Close_Real": 31965.87,
+    "Date": "Mon, 13 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31585.69921875,
+    "Close_Real": 31278.85,
+    "Date": "Tue, 14 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33761.98046875,
+    "Close_Real": 33662.9,
+    "Date": "Wed, 15 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33354.9296875,
+    "Close_Real": 33129.54,
+    "Date": "Thu, 16 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34189.05859375,
+    "Close_Real": 34064.78,
+    "Date": "Fri, 17 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33780.83984375,
+    "Close_Real": 34013.97,
+    "Date": "Sat, 18 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33213.1015625,
+    "Close_Real": 33674.1,
+    "Date": "Sun, 19 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35217.26953125,
+    "Close_Real": 36356.14,
+    "Date": "Mon, 20 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35913.33984375,
+    "Close_Real": 35721.02,
+    "Date": "Tue, 21 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35550.80859375,
+    "Close_Real": 35205.29,
+    "Date": "Wed, 22 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34964.98046875,
+    "Close_Real": 34614.25,
+    "Date": "Thu, 23 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34721.80078125,
+    "Close_Real": 34904.22,
+    "Date": "Fri, 24 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35528.1796875,
+    "Close_Real": 35277.87,
+    "Date": "Sat, 25 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34840.23046875,
+    "Close_Real": 34915.8,
+    "Date": "Sun, 26 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35501.66015625,
+    "Close_Real": 35365.2,
+    "Date": "Mon, 27 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35410.96875,
+    "Close_Real": 34807.54,
+    "Date": "Tue, 28 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34496.921875,
+    "Close_Real": 34435.74,
+    "Date": "Wed, 29 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34495.01953125,
+    "Close_Real": 34826.51,
+    "Date": "Thu, 30 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34383.87890625,
+    "Close_Real": 34391.68,
+    "Date": "Fri, 31 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34249.8984375,
+    "Close_Real": 34508.44,
+    "Date": "Sat, 01 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34662.5,
+    "Close_Real": 34525.56,
+    "Date": "Sun, 02 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34979.69140625,
+    "Close_Real": 35051.3,
+    "Date": "Mon, 03 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36230.6796875,
+    "Close_Real": 35944.11,
+    "Date": "Tue, 04 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35614.21875,
+    "Close_Real": 36210.76,
+    "Date": "Wed, 05 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35603.48828125,
+    "Close_Real": 36040.02,
+    "Date": "Thu, 06 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35587.7109375,
+    "Close_Real": 35309.43,
+    "Date": "Fri, 07 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35492.23046875,
+    "Close_Real": 35291.12,
+    "Date": "Sat, 08 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35452.3203125,
+    "Close_Real": 35465.87,
+    "Date": "Sun, 09 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35522.671875,
+    "Close_Real": 35388.64,
+    "Date": "Mon, 10 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34834.3515625,
+    "Close_Real": 34269.77,
+    "Date": "Tue, 11 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34650.33984375,
+    "Close_Real": 34735.46,
+    "Date": "Wed, 12 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34289.921875,
+    "Close_Real": 33977.02,
+    "Date": "Thu, 13 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33450.1796875,
+    "Close_Real": 33606.13,
+    "Date": "Fri, 14 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33895.16015625,
+    "Close_Real": 33710.12,
+    "Date": "Sat, 15 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34109.01171875,
+    "Close_Real": 33943.37,
+    "Date": "Sun, 16 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34001.83984375,
+    "Close_Real": 33850.78,
+    "Date": "Mon, 17 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33295.44140625,
+    "Close_Real": 33170.32,
+    "Date": "Tue, 18 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33143.98046875,
+    "Close_Real": 33092.72,
+    "Date": "Wed, 19 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33152.6015625,
+    "Close_Real": 33018.37,
+    "Date": "Thu, 20 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32813.26953125,
+    "Close_Real": 32652.92,
+    "Date": "Fri, 21 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32910.23828125,
+    "Close_Real": 32727.94,
+    "Date": "Sat, 22 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32300.259765625,
+    "Close_Real": 32178.79,
+    "Date": "Sun, 23 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30918.869140625,
+    "Close_Real": 30715.77,
+    "Date": "Mon, 24 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31219.4296875,
+    "Close_Real": 31487.41,
+    "Date": "Tue, 25 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31278.140625,
+    "Close_Real": 30986.29,
+    "Date": "Wed, 26 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31113.16015625,
+    "Close_Real": 31396.26,
+    "Date": "Thu, 27 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30985.240234375,
+    "Close_Real": 30741.18,
+    "Date": "Fri, 28 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30667.689453125,
+    "Close_Real": 31024.87,
+    "Date": "Sat, 29 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31570.0,
+    "Close_Real": 31931.01,
+    "Date": "Sun, 30 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31962.990234375,
+    "Close_Real": 32018.75,
+    "Date": "Mon, 01 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31760.369140625,
+    "Close_Real": 31603.92,
+    "Date": "Tue, 02 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31162.560546875,
+    "Close_Real": 30654.62,
+    "Date": "Wed, 03 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28972.6796875,
+    "Close_Real": 29015.12,
+    "Date": "Thu, 04 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28904.779296875,
+    "Close_Real": 28845.16,
+    "Date": "Fri, 05 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30089.5390625,
+    "Close_Real": 29682.04,
+    "Date": "Sat, 06 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28217.109375,
+    "Close_Real": 28429.61,
+    "Date": "Sun, 07 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28874.630859375,
+    "Close_Real": 28873.5,
+    "Date": "Mon, 08 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29504.240234375,
+    "Close_Real": 29533.26,
+    "Date": "Tue, 09 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29353.16015625,
+    "Close_Real": 29406.51,
+    "Date": "Wed, 10 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29287.560546875,
+    "Close_Real": 29207.14,
+    "Date": "Thu, 11 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29519.41015625,
+    "Close_Real": 29490.54,
+    "Date": "Fri, 12 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29817.7109375,
+    "Close_Real": 30163.72,
+    "Date": "Sat, 13 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30587.0390625,
+    "Close_Real": 30953.38,
+    "Date": "Sun, 14 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32402.380859375,
+    "Close_Real": 33036.95,
+    "Date": "Mon, 15 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33124.53125,
+    "Close_Real": 33142.54,
+    "Date": "Tue, 16 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32472.380859375,
+    "Close_Real": 32643.89,
+    "Date": "Wed, 17 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32780.671875,
+    "Close_Real": 32577.87,
+    "Date": "Thu, 18 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34003.87890625,
+    "Close_Real": 33960.46,
+    "Date": "Fri, 19 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33824.94921875,
+    "Close_Real": 34189.61,
+    "Date": "Sat, 20 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34270.55859375,
+    "Close_Real": 34688.85,
+    "Date": "Sun, 21 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34292.80859375,
+    "Close_Real": 34387.69,
+    "Date": "Mon, 22 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33646.71875,
+    "Close_Real": 33564.89,
+    "Date": "Tue, 23 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33436.98046875,
+    "Close_Real": 33263.62,
+    "Date": "Wed, 24 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33354.71875,
+    "Close_Real": 33439.72,
+    "Date": "Thu, 25 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34182.1796875,
+    "Close_Real": 34524.57,
+    "Date": "Fri, 26 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34718.0390625,
+    "Close_Real": 34470.75,
+    "Date": "Sat, 27 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34261.12890625,
+    "Close_Real": 34696.02,
+    "Date": "Sun, 28 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34240.109375,
+    "Close_Real": 33985.23,
+    "Date": "Mon, 29 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33493.359375,
+    "Close_Real": 33669.67,
+    "Date": "Tue, 30 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33305.26171875,
+    "Close_Real": 32870.16,
+    "Date": "Wed, 31 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33210.9609375,
+    "Close_Real": 33234.25,
+    "Date": "Thu, 01 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31408.140625,
+    "Close_Real": 31225.83,
+    "Date": "Fri, 02 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31173.939453125,
+    "Close_Real": 30843.83,
+    "Date": "Sat, 03 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29231.509765625,
+    "Close_Real": 29525.34,
+    "Date": "Sun, 04 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27697.330078125,
+    "Close_Real": 27417.12,
+    "Date": "Mon, 05 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28459.869140625,
+    "Close_Real": 28447.1,
+    "Date": "Tue, 06 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28345.220703125,
+    "Close_Real": 27923.55,
+    "Date": "Wed, 07 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30230.8203125,
+    "Close_Real": 31323.9,
+    "Date": "Thu, 08 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31012.310546875,
+    "Close_Real": 30894.67,
+    "Date": "Fri, 09 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30668.009765625,
+    "Close_Real": 30929.91,
+    "Date": "Sat, 10 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29408.66015625,
+    "Close_Real": 29805.85,
+    "Date": "Sun, 11 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30041.759765625,
+    "Close_Real": 30151.9,
+    "Date": "Mon, 12 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30207.3203125,
+    "Close_Real": 30776.46,
+    "Date": "Tue, 13 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29648.2109375,
+    "Close_Real": 29833.64,
+    "Date": "Wed, 14 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29137.150390625,
+    "Close_Real": 29229.88,
+    "Date": "Thu, 15 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29686.7109375,
+    "Close_Real": 29900.42,
+    "Date": "Fri, 16 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29995.560546875,
+    "Close_Real": 30197.73,
+    "Date": "Sat, 17 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29310.0390625,
+    "Close_Real": 29699.44,
+    "Date": "Sun, 18 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30074.98046875,
+    "Close_Real": 30209.8,
+    "Date": "Mon, 19 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29565.66015625,
+    "Close_Real": 29959.71,
+    "Date": "Tue, 20 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30569.400390625,
+    "Close_Real": 31050.27,
+    "Date": "Wed, 21 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30031.740234375,
+    "Close_Real": 30653.1,
+    "Date": "Thu, 22 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31961.0390625,
+    "Close_Real": 32532.99,
+    "Date": "Fri, 23 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32765.69921875,
+    "Close_Real": 32575.83,
+    "Date": "Sat, 24 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32846.359375,
+    "Close_Real": 32649.38,
+    "Date": "Sun, 25 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32168.390625,
+    "Close_Real": 31910.47,
+    "Date": "Mon, 26 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30388.240234375,
+    "Close_Real": 30185.16,
+    "Date": "Tue, 27 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29607.400390625,
+    "Close_Real": 29958.08,
+    "Date": "Wed, 28 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30036.369140625,
+    "Close_Real": 30138.2,
+    "Date": "Thu, 29 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29813.0,
+    "Close_Real": 30003.2,
+    "Date": "Fri, 30 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29875.439453125,
+    "Close_Real": 29926.14,
+    "Date": "Sat, 31 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29143.5,
+    "Close_Real": 29088.69,
+    "Date": "Sun, 01 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30203.73046875,
+    "Close_Real": 30000.99,
+    "Date": "Mon, 02 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29175.8203125,
+    "Close_Real": 29140.6,
+    "Date": "Tue, 03 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29384.359375,
+    "Close_Real": 29415.05,
+    "Date": "Wed, 04 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28731.490234375,
+    "Close_Real": 28495.96,
+    "Date": "Thu, 05 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27337.380859375,
+    "Close_Real": 27365.93,
+    "Date": "Fri, 06 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27362.970703125,
+    "Close_Real": 27469.96,
+    "Date": "Sat, 07 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28028.080078125,
+    "Close_Real": 27825.32,
+    "Date": "Sun, 08 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28742.630859375,
+    "Close_Real": 28925.28,
+    "Date": "Mon, 09 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29286.26953125,
+    "Close_Real": 29244.82,
+    "Date": "Tue, 10 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29160.689453125,
+    "Close_Real": 29084.69,
+    "Date": "Wed, 11 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29444.880859375,
+    "Close_Real": 29481.16,
+    "Date": "Thu, 12 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30510.83984375,
+    "Close_Real": 30717.0,
+    "Date": "Fri, 13 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30131.5390625,
+    "Close_Real": 30429.93,
+    "Date": "Sat, 14 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29950.369140625,
+    "Close_Real": 30002.88,
+    "Date": "Sun, 15 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29371.240234375,
+    "Close_Real": 29502.4,
+    "Date": "Mon, 16 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30313.310546875,
+    "Close_Real": 30568.58,
+    "Date": "Tue, 17 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30913.69921875,
+    "Close_Real": 31244.55,
+    "Date": "Wed, 18 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31786.0390625,
+    "Close_Real": 31906.02,
+    "Date": "Thu, 19 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31764.83984375,
+    "Close_Real": 32048.02,
+    "Date": "Fri, 20 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32070.30078125,
+    "Close_Real": 32159.1,
+    "Date": "Sat, 21 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32157.41015625,
+    "Close_Real": 32280.45,
+    "Date": "Sun, 22 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32046.759765625,
+    "Close_Real": 32132.49,
+    "Date": "Mon, 23 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32413.390625,
+    "Close_Real": 32620.06,
+    "Date": "Tue, 24 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32296.140625,
+    "Close_Real": 32027.26,
+    "Date": "Wed, 25 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32963.98046875,
+    "Close_Real": 33055.6,
+    "Date": "Thu, 26 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33202.98046875,
+    "Close_Real": 33371.39,
+    "Date": "Fri, 27 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33360.1015625,
+    "Close_Real": 33416.53,
+    "Date": "Sat, 28 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33364.2890625,
+    "Close_Real": 33287.22,
+    "Date": "Sun, 29 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32490.419921875,
+    "Close_Real": 32123.24,
+    "Date": "Mon, 30 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31262.4296875,
+    "Close_Real": 30850.79,
+    "Date": "Tue, 01 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30782.19921875,
+    "Close_Real": 30734.71,
+    "Date": "Wed, 02 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30602.740234375,
+    "Close_Real": 30795.47,
+    "Date": "Thu, 03 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31186.900390625,
+    "Close_Real": 31460.9,
+    "Date": "Fri, 04 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31845.73046875,
+    "Close_Real": 31472.72,
+    "Date": "Sat, 05 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32108.419921875,
+    "Close_Real": 31841.74,
+    "Date": "Sun, 06 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31524.419921875,
+    "Close_Real": 31547.18,
+    "Date": "Mon, 07 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31773.5703125,
+    "Close_Real": 31498.66,
+    "Date": "Tue, 08 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31131.55078125,
+    "Close_Real": 30711.46,
+    "Date": "Wed, 09 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30349.98046875,
+    "Close_Real": 30559.67,
+    "Date": "Thu, 10 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31248.080078125,
+    "Close_Real": 31654.33,
+    "Date": "Fri, 11 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31984.369140625,
+    "Close_Real": 32034.98,
+    "Date": "Sat, 12 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31893.94921875,
+    "Close_Real": 31862.51,
+    "Date": "Sun, 13 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33286.640625,
+    "Close_Real": 33487.21,
+    "Date": "Mon, 14 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33498.69140625,
+    "Close_Real": 33981.22,
+    "Date": "Tue, 15 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33864.03125,
+    "Close_Real": 34268.21,
+    "Date": "Wed, 16 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34182.9609375,
+    "Close_Real": 34159.95,
+    "Date": "Thu, 17 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34256.80078125,
+    "Close_Real": 34676.07,
+    "Date": "Fri, 18 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34618.8515625,
+    "Close_Real": 34649.33,
+    "Date": "Sat, 19 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34670.8515625,
+    "Close_Real": 34985.28,
+    "Date": "Sun, 20 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35148.53125,
+    "Close_Real": 34155.01,
+    "Date": "Mon, 21 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34233.48828125,
+    "Close_Real": 34144.23,
+    "Date": "Tue, 22 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33869.8984375,
+    "Close_Real": 33661.36,
+    "Date": "Wed, 23 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34625.3203125,
+    "Close_Real": 34530.88,
+    "Date": "Thu, 24 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34290.28125,
+    "Close_Real": 33753.96,
+    "Date": "Fri, 25 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33900.33984375,
+    "Close_Real": 33947.89,
+    "Date": "Sat, 26 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34091.28125,
+    "Close_Real": 34410.06,
+    "Date": "Sun, 27 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35144.87890625,
+    "Close_Real": 35409.59,
+    "Date": "Mon, 28 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36282.33984375,
+    "Close_Real": 36827.95,
+    "Date": "Tue, 29 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36050.859375,
+    "Close_Real": 36639.78,
+    "Date": "Wed, 30 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35081.30859375,
+    "Close_Real": 35553.42,
+    "Date": "Thu, 31 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35311.87109375,
+    "Close_Real": 35186.13,
+    "Date": "Fri, 01 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35362.87890625,
+    "Close_Real": 35085.9,
+    "Date": "Sat, 02 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35199.48046875,
+    "Close_Real": 34805.47,
+    "Date": "Sun, 03 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34419.0,
+    "Close_Real": 34330.58,
+    "Date": "Mon, 04 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35137.8203125,
+    "Close_Real": 35109.86,
+    "Date": "Tue, 05 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36331.51171875,
+    "Close_Real": 38300.61,
+    "Date": "Wed, 06 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36152.3203125,
+    "Close_Real": 38461.79,
+    "Date": "Thu, 07 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36130.62109375,
+    "Close_Real": 38792.96,
+    "Date": "Fri, 08 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36081.359375,
+    "Close_Real": 38938.27,
+    "Date": "Sat, 09 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36744.1015625,
+    "Close_Real": 40796.33,
+    "Date": "Sun, 10 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36740.2109375,
+    "Close_Real": 44941.97,
+    "Date": "Mon, 11 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36253.578125,
+    "Close_Real": 44545.96,
+    "Date": "Tue, 12 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37127.12890625,
+    "Close_Real": 45851.32,
+    "Date": "Wed, 13 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35236.25,
+    "Close_Real": 44162.8,
+    "Date": "Thu, 14 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36948.05859375,
+    "Close_Real": 46077.97,
+    "Date": "Fri, 15 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36546.33984375,
+    "Close_Real": 45829.17,
+    "Date": "Sat, 16 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36372.58984375,
+    "Close_Real": 45464.46,
+    "Date": "Sun, 17 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36683.9609375,
+    "Close_Real": 45834.22,
+    "Date": "Mon, 18 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37138.609375,
+    "Close_Real": 46719.05,
+    "Date": "Tue, 19 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37179.73046875,
+    "Close_Real": 47709.9,
+    "Date": "Wed, 20 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37131.30859375,
+    "Close_Real": 49840.85,
+    "Date": "Thu, 21 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36586.37109375,
+    "Close_Real": 50083.28,
+    "Date": "Fri, 22 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36383.9609375,
+    "Close_Real": 49484.44,
+    "Date": "Sat, 23 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36414.87890625,
+    "Close_Real": 49597.94,
+    "Date": "Sun, 24 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33626.3203125,
+    "Close_Real": 47147.8,
+    "Date": "Mon, 25 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35529.6796875,
+    "Close_Real": 46573.83,
+    "Date": "Tue, 26 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36506.80078125,
+    "Close_Real": 48617.84,
+    "Date": "Wed, 27 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36061.3984375,
+    "Close_Real": 48450.74,
+    "Date": "Thu, 28 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36490.98046875,
+    "Close_Real": 49357.81,
+    "Date": "Fri, 29 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35610.3203125,
+    "Close_Real": 48869.24,
+    "Date": "Sat, 30 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36410.1484375,
+    "Close_Real": 49285.57,
+    "Date": "Sun, 01 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35588.6796875,
+    "Close_Real": 48566.7,
+    "Date": "Mon, 02 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35670.609375,
+    "Close_Real": 48637.17,
+    "Date": "Tue, 03 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36538.30078125,
+    "Close_Real": 50055.48,
+    "Date": "Wed, 04 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35165.21875,
+    "Close_Real": 48961.87,
+    "Date": "Thu, 05 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36463.859375,
+    "Close_Real": 50657.89,
+    "Date": "Fri, 06 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35673.51171875,
+    "Close_Real": 50659.87,
+    "Date": "Sat, 07 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36045.3984375,
+    "Close_Real": 51316.2,
+    "Date": "Sun, 08 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33594.48046875,
+    "Close_Real": 49364.34,
+    "Date": "Mon, 09 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35473.9609375,
+    "Close_Real": 48970.85,
+    "Date": "Tue, 10 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36552.05859375,
+    "Close_Real": 51254.63,
+    "Date": "Wed, 11 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35616.109375,
+    "Close_Real": 50697.38,
+    "Date": "Thu, 12 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36148.6484375,
+    "Close_Real": 51411.12,
+    "Date": "Fri, 13 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35697.578125,
+    "Close_Real": 51360.24,
+    "Date": "Sat, 14 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36610.390625,
+    "Close_Real": 52836.88,
+    "Date": "Sun, 15 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37008.7109375,
+    "Close_Real": 53707.77,
+    "Date": "Mon, 16 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36378.0390625,
+    "Close_Real": 53747.19,
+    "Date": "Tue, 17 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33660.28125,
+    "Close_Real": 50652.13,
+    "Date": "Wed, 18 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34706.4609375,
+    "Close_Real": 49342.78,
+    "Date": "Thu, 19 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35681.1015625,
+    "Close_Real": 49484.71,
+    "Date": "Fri, 20 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35702.51171875,
+    "Close_Real": 49195.89,
+    "Date": "Sat, 21 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35079.6484375,
+    "Close_Real": 48125.51,
+    "Date": "Sun, 22 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35689.578125,
+    "Close_Real": 47941.48,
+    "Date": "Mon, 23 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36442.8203125,
+    "Close_Real": 49949.22,
+    "Date": "Tue, 24 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35832.8203125,
+    "Close_Real": 50261.29,
+    "Date": "Wed, 25 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33520.7109375,
+    "Close_Real": 48482.18,
+    "Date": "Thu, 26 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35490.8203125,
+    "Close_Real": 47666.36,
+    "Date": "Fri, 27 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35938.66015625,
+    "Close_Real": 48179.34,
+    "Date": "Sat, 28 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35488.2109375,
+    "Close_Real": 47352.82,
+    "Date": "Sun, 29 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35610.87109375,
+    "Close_Real": 46911.09,
+    "Date": "Mon, 30 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35822.12109375,
+    "Close_Real": 47299.98,
+    "Date": "Tue, 31 Dec 2024 00:00:00 GMT"
+  }
+]
+[
+  {
+    "Close_Previsto": 22462.439453125,
+    "Close_Real": 22484.82,
+    "Date": "Mon, 01 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22924.259765625,
+    "Close_Real": 22880.41,
+    "Date": "Tue, 02 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21818.689453125,
+    "Close_Real": 21802.14,
+    "Date": "Wed, 03 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22495.98046875,
+    "Close_Real": 22478.09,
+    "Date": "Thu, 04 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22452.30078125,
+    "Close_Real": 22468.77,
+    "Date": "Fri, 05 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22351.580078125,
+    "Close_Real": 22376.81,
+    "Date": "Sat, 06 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22365.740234375,
+    "Close_Real": 22350.22,
+    "Date": "Sun, 07 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23877.25,
+    "Close_Real": 23882.1,
+    "Date": "Mon, 08 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23460.9609375,
+    "Close_Real": 23468.45,
+    "Date": "Tue, 09 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23774.16015625,
+    "Close_Real": 23750.85,
+    "Date": "Wed, 10 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23618.740234375,
+    "Close_Real": 23627.37,
+    "Date": "Thu, 11 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21849.259765625,
+    "Close_Real": 21853.28,
+    "Date": "Fri, 12 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21858.939453125,
+    "Close_Real": 21856.77,
+    "Date": "Sat, 13 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21322.73046875,
+    "Close_Real": 21316.76,
+    "Date": "Sun, 14 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21710.5390625,
+    "Close_Real": 21682.0,
+    "Date": "Mon, 15 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22023.33984375,
+    "Close_Real": 22015.72,
+    "Date": "Tue, 16 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21815.7890625,
+    "Close_Real": 21799.94,
+    "Date": "Wed, 17 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21052.69921875,
+    "Close_Real": 21049.67,
+    "Date": "Thu, 18 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21226.30078125,
+    "Close_Real": 21231.48,
+    "Date": "Fri, 19 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21241.4609375,
+    "Close_Real": 21252.0,
+    "Date": "Sat, 20 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21166.109375,
+    "Close_Real": 21189.58,
+    "Date": "Sun, 21 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20136.4609375,
+    "Close_Real": 20146.32,
+    "Date": "Mon, 22 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20312.220703125,
+    "Close_Real": 20303.79,
+    "Date": "Tue, 23 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20406.759765625,
+    "Close_Real": 20418.32,
+    "Date": "Wed, 24 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 20340.5703125,
+    "Close_Real": 20343.98,
+    "Date": "Thu, 25 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21284.080078125,
+    "Close_Real": 21294.34,
+    "Date": "Fri, 26 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21497.060546875,
+    "Close_Real": 21446.34,
+    "Date": "Sat, 27 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21373.970703125,
+    "Close_Real": 21402.45,
+    "Date": "Sun, 28 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22068.150390625,
+    "Close_Real": 22038.99,
+    "Date": "Mon, 29 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21899.599609375,
+    "Close_Real": 21875.36,
+    "Date": "Tue, 30 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21708.779296875,
+    "Close_Real": 21679.8,
+    "Date": "Wed, 31 Jan 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21917.16015625,
+    "Close_Real": 21929.85,
+    "Date": "Thu, 01 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21999.689453125,
+    "Close_Real": 21985.77,
+    "Date": "Fri, 02 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21841.189453125,
+    "Close_Real": 21886.83,
+    "Date": "Sat, 03 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21708.0390625,
+    "Close_Real": 21681.65,
+    "Date": "Sun, 04 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21716.98046875,
+    "Close_Real": 21720.47,
+    "Date": "Mon, 05 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 21985.259765625,
+    "Close_Real": 21945.37,
+    "Date": "Tue, 06 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 22574.900390625,
+    "Close_Real": 22570.9,
+    "Date": "Wed, 07 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 23071.189453125,
+    "Close_Real": 23062.71,
+    "Date": "Thu, 08 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 24007.330078125,
+    "Close_Real": 23996.86,
+    "Date": "Fri, 09 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 24293.279296875,
+    "Close_Real": 24311.17,
+    "Date": "Sat, 10 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 24587.76953125,
+    "Close_Real": 24573.31,
+    "Date": "Sun, 11 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 25419.01953125,
+    "Close_Real": 25430.21,
+    "Date": "Mon, 12 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 25351.560546875,
+    "Close_Real": 25319.6,
+    "Date": "Tue, 13 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26363.119140625,
+    "Close_Real": 26384.24,
+    "Date": "Wed, 14 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26457.359375,
+    "Close_Real": 26448.66,
+    "Date": "Thu, 15 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26550.009765625,
+    "Close_Real": 26556.38,
+    "Date": "Fri, 16 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26304.259765625,
+    "Close_Real": 26304.52,
+    "Date": "Sat, 17 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26549.759765625,
+    "Close_Real": 26549.03,
+    "Date": "Sun, 18 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26374.970703125,
+    "Close_Real": 26387.75,
+    "Date": "Mon, 19 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26669.869140625,
+    "Close_Real": 26651.82,
+    "Date": "Tue, 20 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26364.19921875,
+    "Close_Real": 26423.31,
+    "Date": "Wed, 21 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26161.69921875,
+    "Close_Real": 26156.33,
+    "Date": "Thu, 22 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 25886.98046875,
+    "Close_Real": 25861.43,
+    "Date": "Fri, 23 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26277.400390625,
+    "Close_Real": 26292.94,
+    "Date": "Sat, 24 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 26416.759765625,
+    "Close_Real": 26393.63,
+    "Date": "Sun, 25 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27803.650390625,
+    "Close_Real": 27799.94,
+    "Date": "Mon, 26 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29081.5390625,
+    "Close_Real": 29091.43,
+    "Date": "Tue, 27 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31832.240234375,
+    "Close_Real": 31825.47,
+    "Date": "Wed, 28 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31159.349609375,
+    "Close_Real": 31164.69,
+    "Date": "Thu, 29 Feb 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31802.369140625,
+    "Close_Real": 31801.43,
+    "Date": "Fri, 01 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31602.80078125,
+    "Close_Real": 31594.17,
+    "Date": "Sat, 02 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32157.060546875,
+    "Close_Real": 32174.18,
+    "Date": "Sun, 03 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34770.578125,
+    "Close_Real": 34778.44,
+    "Date": "Mon, 04 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32500.51953125,
+    "Close_Real": 32499.88,
+    "Date": "Tue, 05 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33702.578125,
+    "Close_Real": 33697.3,
+    "Date": "Wed, 06 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34122.55078125,
+    "Close_Real": 34118.91,
+    "Date": "Thu, 07 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34844.171875,
+    "Close_Real": 34809.87,
+    "Date": "Fri, 08 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34867.01953125,
+    "Close_Real": 34913.06,
+    "Date": "Sat, 09 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35179.33984375,
+    "Close_Real": 35170.46,
+    "Date": "Sun, 10 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36747.421875,
+    "Close_Real": 36751.98,
+    "Date": "Mon, 11 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36412.4296875,
+    "Close_Real": 36417.88,
+    "Date": "Tue, 12 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37210.9609375,
+    "Close_Real": 37229.38,
+    "Date": "Wed, 13 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36362.4609375,
+    "Close_Real": 36365.19,
+    "Date": "Thu, 14 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35348.3203125,
+    "Close_Real": 35347.18,
+    "Date": "Fri, 15 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33270.1796875,
+    "Close_Real": 33265.42,
+    "Date": "Sat, 16 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34812.3984375,
+    "Close_Real": 34822.99,
+    "Date": "Sun, 17 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34359.37109375,
+    "Close_Real": 34380.76,
+    "Date": "Mon, 18 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31502.5390625,
+    "Close_Real": 31501.0,
+    "Date": "Tue, 19 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34477.2109375,
+    "Close_Real": 34562.47,
+    "Date": "Wed, 20 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33382.171875,
+    "Close_Real": 33347.24,
+    "Date": "Thu, 21 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32455.470703125,
+    "Close_Real": 32465.1,
+    "Date": "Fri, 22 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32616.640625,
+    "Close_Real": 32607.21,
+    "Date": "Sat, 23 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34229.55859375,
+    "Close_Real": 34213.6,
+    "Date": "Sun, 24 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35577.33984375,
+    "Close_Real": 35599.18,
+    "Date": "Mon, 25 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35596.9609375,
+    "Close_Real": 35612.81,
+    "Date": "Tue, 26 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35347.0390625,
+    "Close_Real": 35332.01,
+    "Date": "Wed, 27 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35984.37109375,
+    "Close_Real": 35987.29,
+    "Date": "Thu, 28 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35554.87890625,
+    "Close_Real": 35555.2,
+    "Date": "Fri, 29 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35457.890625,
+    "Close_Real": 35430.23,
+    "Date": "Sat, 30 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36303.71875,
+    "Close_Real": 36297.57,
+    "Date": "Sun, 31 Mar 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35459.23828125,
+    "Close_Real": 35456.6,
+    "Date": "Mon, 01 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33272.62890625,
+    "Close_Real": 33290.44,
+    "Date": "Tue, 02 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33555.7109375,
+    "Close_Real": 33563.71,
+    "Date": "Wed, 03 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34851.5390625,
+    "Close_Real": 34832.05,
+    "Date": "Thu, 04 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34533.19140625,
+    "Close_Real": 34493.79,
+    "Date": "Fri, 05 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35023.62890625,
+    "Close_Real": 35029.32,
+    "Date": "Sat, 06 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35265.53125,
+    "Close_Real": 35278.38,
+    "Date": "Sun, 07 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36453.8984375,
+    "Close_Real": 36451.7,
+    "Date": "Mon, 08 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35164.828125,
+    "Close_Real": 35174.31,
+    "Date": "Tue, 09 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35923.921875,
+    "Close_Real": 35906.71,
+    "Date": "Wed, 10 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35629.23828125,
+    "Close_Real": 35636.57,
+    "Date": "Thu, 11 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34155.2109375,
+    "Close_Real": 34160.72,
+    "Date": "Fri, 12 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32402.619140625,
+    "Close_Real": 32432.13,
+    "Date": "Sat, 13 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33418.98828125,
+    "Close_Real": 33416.47,
+    "Date": "Sun, 14 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32268.4296875,
+    "Close_Real": 32249.85,
+    "Date": "Mon, 15 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32426.25,
+    "Close_Real": 32438.99,
+    "Date": "Tue, 16 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31164.220703125,
+    "Close_Real": 31154.93,
+    "Date": "Wed, 17 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32298.890625,
+    "Close_Real": 32287.57,
+    "Date": "Thu, 18 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32426.4609375,
+    "Close_Real": 32452.09,
+    "Date": "Fri, 19 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33046.69140625,
+    "Close_Real": 33044.67,
+    "Date": "Sat, 20 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33028.41015625,
+    "Close_Real": 33009.52,
+    "Date": "Sun, 21 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33967.4296875,
+    "Close_Real": 33975.72,
+    "Date": "Mon, 22 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33737.359375,
+    "Close_Real": 33763.39,
+    "Date": "Tue, 23 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32690.7890625,
+    "Close_Real": 32685.1,
+    "Date": "Wed, 24 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32783.48046875,
+    "Close_Real": 32790.39,
+    "Date": "Thu, 25 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32205.6796875,
+    "Close_Real": 32421.71,
+    "Date": "Fri, 26 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31916.580078125,
+    "Close_Real": 32273.12,
+    "Date": "Sat, 27 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32002.439453125,
+    "Close_Real": 32121.95,
+    "Date": "Sun, 28 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32572.439453125,
+    "Close_Real": 32477.88,
+    "Date": "Mon, 29 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31236.359375,
+    "Close_Real": 30841.82,
+    "Date": "Tue, 30 Apr 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29523.380859375,
+    "Close_Real": 29642.97,
+    "Date": "Wed, 01 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29704.689453125,
+    "Close_Real": 30080.73,
+    "Date": "Thu, 02 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31491.099609375,
+    "Close_Real": 31984.29,
+    "Date": "Fri, 03 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32533.69921875,
+    "Close_Real": 32487.41,
+    "Date": "Sat, 04 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32782.01171875,
+    "Close_Real": 32560.74,
+    "Date": "Sun, 05 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32265.0,
+    "Close_Real": 32114.37,
+    "Date": "Mon, 06 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31740.490234375,
+    "Close_Real": 31690.91,
+    "Date": "Tue, 07 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31368.76953125,
+    "Close_Real": 31112.55,
+    "Date": "Wed, 08 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32277.919921875,
+    "Close_Real": 32054.55,
+    "Date": "Thu, 09 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31204.470703125,
+    "Close_Real": 30904.78,
+    "Date": "Fri, 10 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30838.900390625,
+    "Close_Real": 30905.88,
+    "Date": "Sat, 11 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31053.470703125,
+    "Close_Real": 31236.01,
+    "Date": "Sun, 12 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31860.890625,
+    "Close_Real": 31965.87,
+    "Date": "Mon, 13 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31585.69921875,
+    "Close_Real": 31278.85,
+    "Date": "Tue, 14 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33761.98046875,
+    "Close_Real": 33662.9,
+    "Date": "Wed, 15 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33354.9296875,
+    "Close_Real": 33129.54,
+    "Date": "Thu, 16 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34189.05859375,
+    "Close_Real": 34064.78,
+    "Date": "Fri, 17 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33780.83984375,
+    "Close_Real": 34013.97,
+    "Date": "Sat, 18 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33213.1015625,
+    "Close_Real": 33674.1,
+    "Date": "Sun, 19 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35217.26953125,
+    "Close_Real": 36356.14,
+    "Date": "Mon, 20 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35913.33984375,
+    "Close_Real": 35721.02,
+    "Date": "Tue, 21 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35550.80859375,
+    "Close_Real": 35205.29,
+    "Date": "Wed, 22 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34964.98046875,
+    "Close_Real": 34614.25,
+    "Date": "Thu, 23 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34721.80078125,
+    "Close_Real": 34904.22,
+    "Date": "Fri, 24 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35528.1796875,
+    "Close_Real": 35277.87,
+    "Date": "Sat, 25 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34840.23046875,
+    "Close_Real": 34915.8,
+    "Date": "Sun, 26 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35501.66015625,
+    "Close_Real": 35365.2,
+    "Date": "Mon, 27 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35410.96875,
+    "Close_Real": 34807.54,
+    "Date": "Tue, 28 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34496.921875,
+    "Close_Real": 34435.74,
+    "Date": "Wed, 29 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34495.01953125,
+    "Close_Real": 34826.51,
+    "Date": "Thu, 30 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34383.87890625,
+    "Close_Real": 34391.68,
+    "Date": "Fri, 31 May 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34249.8984375,
+    "Close_Real": 34508.44,
+    "Date": "Sat, 01 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34662.5,
+    "Close_Real": 34525.56,
+    "Date": "Sun, 02 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34979.69140625,
+    "Close_Real": 35051.3,
+    "Date": "Mon, 03 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36230.6796875,
+    "Close_Real": 35944.11,
+    "Date": "Tue, 04 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35614.21875,
+    "Close_Real": 36210.76,
+    "Date": "Wed, 05 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35603.48828125,
+    "Close_Real": 36040.02,
+    "Date": "Thu, 06 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35587.7109375,
+    "Close_Real": 35309.43,
+    "Date": "Fri, 07 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35492.23046875,
+    "Close_Real": 35291.12,
+    "Date": "Sat, 08 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35452.3203125,
+    "Close_Real": 35465.87,
+    "Date": "Sun, 09 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35522.671875,
+    "Close_Real": 35388.64,
+    "Date": "Mon, 10 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34834.3515625,
+    "Close_Real": 34269.77,
+    "Date": "Tue, 11 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34650.33984375,
+    "Close_Real": 34735.46,
+    "Date": "Wed, 12 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34289.921875,
+    "Close_Real": 33977.02,
+    "Date": "Thu, 13 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33450.1796875,
+    "Close_Real": 33606.13,
+    "Date": "Fri, 14 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33895.16015625,
+    "Close_Real": 33710.12,
+    "Date": "Sat, 15 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34109.01171875,
+    "Close_Real": 33943.37,
+    "Date": "Sun, 16 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34001.83984375,
+    "Close_Real": 33850.78,
+    "Date": "Mon, 17 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33295.44140625,
+    "Close_Real": 33170.32,
+    "Date": "Tue, 18 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33143.98046875,
+    "Close_Real": 33092.72,
+    "Date": "Wed, 19 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33152.6015625,
+    "Close_Real": 33018.37,
+    "Date": "Thu, 20 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32813.26953125,
+    "Close_Real": 32652.92,
+    "Date": "Fri, 21 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32910.23828125,
+    "Close_Real": 32727.94,
+    "Date": "Sat, 22 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32300.259765625,
+    "Close_Real": 32178.79,
+    "Date": "Sun, 23 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30918.869140625,
+    "Close_Real": 30715.77,
+    "Date": "Mon, 24 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31219.4296875,
+    "Close_Real": 31487.41,
+    "Date": "Tue, 25 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31278.140625,
+    "Close_Real": 30986.29,
+    "Date": "Wed, 26 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31113.16015625,
+    "Close_Real": 31396.26,
+    "Date": "Thu, 27 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30985.240234375,
+    "Close_Real": 30741.18,
+    "Date": "Fri, 28 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30667.689453125,
+    "Close_Real": 31024.87,
+    "Date": "Sat, 29 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31570.0,
+    "Close_Real": 31931.01,
+    "Date": "Sun, 30 Jun 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31962.990234375,
+    "Close_Real": 32018.75,
+    "Date": "Mon, 01 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31760.369140625,
+    "Close_Real": 31603.92,
+    "Date": "Tue, 02 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31162.560546875,
+    "Close_Real": 30654.62,
+    "Date": "Wed, 03 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28972.6796875,
+    "Close_Real": 29015.12,
+    "Date": "Thu, 04 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28904.779296875,
+    "Close_Real": 28845.16,
+    "Date": "Fri, 05 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30089.5390625,
+    "Close_Real": 29682.04,
+    "Date": "Sat, 06 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28217.109375,
+    "Close_Real": 28429.61,
+    "Date": "Sun, 07 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28874.630859375,
+    "Close_Real": 28873.5,
+    "Date": "Mon, 08 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29504.240234375,
+    "Close_Real": 29533.26,
+    "Date": "Tue, 09 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29353.16015625,
+    "Close_Real": 29406.51,
+    "Date": "Wed, 10 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29287.560546875,
+    "Close_Real": 29207.14,
+    "Date": "Thu, 11 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29519.41015625,
+    "Close_Real": 29490.54,
+    "Date": "Fri, 12 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29817.7109375,
+    "Close_Real": 30163.72,
+    "Date": "Sat, 13 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30587.0390625,
+    "Close_Real": 30953.38,
+    "Date": "Sun, 14 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32402.380859375,
+    "Close_Real": 33036.95,
+    "Date": "Mon, 15 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33124.53125,
+    "Close_Real": 33142.54,
+    "Date": "Tue, 16 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32472.380859375,
+    "Close_Real": 32643.89,
+    "Date": "Wed, 17 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32780.671875,
+    "Close_Real": 32577.87,
+    "Date": "Thu, 18 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34003.87890625,
+    "Close_Real": 33960.46,
+    "Date": "Fri, 19 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33824.94921875,
+    "Close_Real": 34189.61,
+    "Date": "Sat, 20 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34270.55859375,
+    "Close_Real": 34688.85,
+    "Date": "Sun, 21 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34292.80859375,
+    "Close_Real": 34387.69,
+    "Date": "Mon, 22 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33646.71875,
+    "Close_Real": 33564.89,
+    "Date": "Tue, 23 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33436.98046875,
+    "Close_Real": 33263.62,
+    "Date": "Wed, 24 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33354.71875,
+    "Close_Real": 33439.72,
+    "Date": "Thu, 25 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34182.1796875,
+    "Close_Real": 34524.57,
+    "Date": "Fri, 26 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34718.0390625,
+    "Close_Real": 34470.75,
+    "Date": "Sat, 27 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34261.12890625,
+    "Close_Real": 34696.02,
+    "Date": "Sun, 28 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34240.109375,
+    "Close_Real": 33985.23,
+    "Date": "Mon, 29 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33493.359375,
+    "Close_Real": 33669.67,
+    "Date": "Tue, 30 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33305.26171875,
+    "Close_Real": 32870.16,
+    "Date": "Wed, 31 Jul 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33210.9609375,
+    "Close_Real": 33234.25,
+    "Date": "Thu, 01 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31408.140625,
+    "Close_Real": 31225.83,
+    "Date": "Fri, 02 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31173.939453125,
+    "Close_Real": 30843.83,
+    "Date": "Sat, 03 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29231.509765625,
+    "Close_Real": 29525.34,
+    "Date": "Sun, 04 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27697.330078125,
+    "Close_Real": 27417.12,
+    "Date": "Mon, 05 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28459.869140625,
+    "Close_Real": 28447.1,
+    "Date": "Tue, 06 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28345.220703125,
+    "Close_Real": 27923.55,
+    "Date": "Wed, 07 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30230.8203125,
+    "Close_Real": 31323.9,
+    "Date": "Thu, 08 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31012.310546875,
+    "Close_Real": 30894.67,
+    "Date": "Fri, 09 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30668.009765625,
+    "Close_Real": 30929.91,
+    "Date": "Sat, 10 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29408.66015625,
+    "Close_Real": 29805.85,
+    "Date": "Sun, 11 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30041.759765625,
+    "Close_Real": 30151.9,
+    "Date": "Mon, 12 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30207.3203125,
+    "Close_Real": 30776.46,
+    "Date": "Tue, 13 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29648.2109375,
+    "Close_Real": 29833.64,
+    "Date": "Wed, 14 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29137.150390625,
+    "Close_Real": 29229.88,
+    "Date": "Thu, 15 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29686.7109375,
+    "Close_Real": 29900.42,
+    "Date": "Fri, 16 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29995.560546875,
+    "Close_Real": 30197.73,
+    "Date": "Sat, 17 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29310.0390625,
+    "Close_Real": 29699.44,
+    "Date": "Sun, 18 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30074.98046875,
+    "Close_Real": 30209.8,
+    "Date": "Mon, 19 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29565.66015625,
+    "Close_Real": 29959.71,
+    "Date": "Tue, 20 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30569.400390625,
+    "Close_Real": 31050.27,
+    "Date": "Wed, 21 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30031.740234375,
+    "Close_Real": 30653.1,
+    "Date": "Thu, 22 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31961.0390625,
+    "Close_Real": 32532.99,
+    "Date": "Fri, 23 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32765.69921875,
+    "Close_Real": 32575.83,
+    "Date": "Sat, 24 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32846.359375,
+    "Close_Real": 32649.38,
+    "Date": "Sun, 25 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32168.390625,
+    "Close_Real": 31910.47,
+    "Date": "Mon, 26 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30388.240234375,
+    "Close_Real": 30185.16,
+    "Date": "Tue, 27 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29607.400390625,
+    "Close_Real": 29958.08,
+    "Date": "Wed, 28 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30036.369140625,
+    "Close_Real": 30138.2,
+    "Date": "Thu, 29 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29813.0,
+    "Close_Real": 30003.2,
+    "Date": "Fri, 30 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29875.439453125,
+    "Close_Real": 29926.14,
+    "Date": "Sat, 31 Aug 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29143.5,
+    "Close_Real": 29088.69,
+    "Date": "Sun, 01 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30203.73046875,
+    "Close_Real": 30000.99,
+    "Date": "Mon, 02 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29175.8203125,
+    "Close_Real": 29140.6,
+    "Date": "Tue, 03 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29384.359375,
+    "Close_Real": 29415.05,
+    "Date": "Wed, 04 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28731.490234375,
+    "Close_Real": 28495.96,
+    "Date": "Thu, 05 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27337.380859375,
+    "Close_Real": 27365.93,
+    "Date": "Fri, 06 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 27362.970703125,
+    "Close_Real": 27469.96,
+    "Date": "Sat, 07 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28028.080078125,
+    "Close_Real": 27825.32,
+    "Date": "Sun, 08 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 28742.630859375,
+    "Close_Real": 28925.28,
+    "Date": "Mon, 09 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29286.26953125,
+    "Close_Real": 29244.82,
+    "Date": "Tue, 10 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29160.689453125,
+    "Close_Real": 29084.69,
+    "Date": "Wed, 11 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29444.880859375,
+    "Close_Real": 29481.16,
+    "Date": "Thu, 12 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30510.83984375,
+    "Close_Real": 30717.0,
+    "Date": "Fri, 13 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30131.5390625,
+    "Close_Real": 30429.93,
+    "Date": "Sat, 14 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29950.369140625,
+    "Close_Real": 30002.88,
+    "Date": "Sun, 15 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 29371.240234375,
+    "Close_Real": 29502.4,
+    "Date": "Mon, 16 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30313.310546875,
+    "Close_Real": 30568.58,
+    "Date": "Tue, 17 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30913.69921875,
+    "Close_Real": 31244.55,
+    "Date": "Wed, 18 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31786.0390625,
+    "Close_Real": 31906.02,
+    "Date": "Thu, 19 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31764.83984375,
+    "Close_Real": 32048.02,
+    "Date": "Fri, 20 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32070.30078125,
+    "Close_Real": 32159.1,
+    "Date": "Sat, 21 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32157.41015625,
+    "Close_Real": 32280.45,
+    "Date": "Sun, 22 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32046.759765625,
+    "Close_Real": 32132.49,
+    "Date": "Mon, 23 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32413.390625,
+    "Close_Real": 32620.06,
+    "Date": "Tue, 24 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32296.140625,
+    "Close_Real": 32027.26,
+    "Date": "Wed, 25 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32963.98046875,
+    "Close_Real": 33055.6,
+    "Date": "Thu, 26 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33202.98046875,
+    "Close_Real": 33371.39,
+    "Date": "Fri, 27 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33360.1015625,
+    "Close_Real": 33416.53,
+    "Date": "Sat, 28 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33364.2890625,
+    "Close_Real": 33287.22,
+    "Date": "Sun, 29 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32490.419921875,
+    "Close_Real": 32123.24,
+    "Date": "Mon, 30 Sep 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31262.4296875,
+    "Close_Real": 30850.79,
+    "Date": "Tue, 01 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30782.19921875,
+    "Close_Real": 30734.71,
+    "Date": "Wed, 02 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30602.740234375,
+    "Close_Real": 30795.47,
+    "Date": "Thu, 03 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31186.900390625,
+    "Close_Real": 31460.9,
+    "Date": "Fri, 04 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31845.73046875,
+    "Close_Real": 31472.72,
+    "Date": "Sat, 05 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 32108.419921875,
+    "Close_Real": 31841.74,
+    "Date": "Sun, 06 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31524.419921875,
+    "Close_Real": 31547.18,
+    "Date": "Mon, 07 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31773.5703125,
+    "Close_Real": 31498.66,
+    "Date": "Tue, 08 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31131.55078125,
+    "Close_Real": 30711.46,
+    "Date": "Wed, 09 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 30349.98046875,
+    "Close_Real": 30559.67,
+    "Date": "Thu, 10 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31248.080078125,
+    "Close_Real": 31654.33,
+    "Date": "Fri, 11 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31984.369140625,
+    "Close_Real": 32034.98,
+    "Date": "Sat, 12 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 31893.94921875,
+    "Close_Real": 31862.51,
+    "Date": "Sun, 13 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33286.640625,
+    "Close_Real": 33487.21,
+    "Date": "Mon, 14 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33498.69140625,
+    "Close_Real": 33981.22,
+    "Date": "Tue, 15 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33864.03125,
+    "Close_Real": 34268.21,
+    "Date": "Wed, 16 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34182.9609375,
+    "Close_Real": 34159.95,
+    "Date": "Thu, 17 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34256.80078125,
+    "Close_Real": 34676.07,
+    "Date": "Fri, 18 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34618.8515625,
+    "Close_Real": 34649.33,
+    "Date": "Sat, 19 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34670.8515625,
+    "Close_Real": 34985.28,
+    "Date": "Sun, 20 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35148.53125,
+    "Close_Real": 34155.01,
+    "Date": "Mon, 21 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34233.48828125,
+    "Close_Real": 34144.23,
+    "Date": "Tue, 22 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33869.8984375,
+    "Close_Real": 33661.36,
+    "Date": "Wed, 23 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34625.3203125,
+    "Close_Real": 34530.88,
+    "Date": "Thu, 24 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34290.28125,
+    "Close_Real": 33753.96,
+    "Date": "Fri, 25 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33900.33984375,
+    "Close_Real": 33947.89,
+    "Date": "Sat, 26 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34091.28125,
+    "Close_Real": 34410.06,
+    "Date": "Sun, 27 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35144.87890625,
+    "Close_Real": 35409.59,
+    "Date": "Mon, 28 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36282.33984375,
+    "Close_Real": 36827.95,
+    "Date": "Tue, 29 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36050.859375,
+    "Close_Real": 36639.78,
+    "Date": "Wed, 30 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35081.30859375,
+    "Close_Real": 35553.42,
+    "Date": "Thu, 31 Oct 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35311.87109375,
+    "Close_Real": 35186.13,
+    "Date": "Fri, 01 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35362.87890625,
+    "Close_Real": 35085.9,
+    "Date": "Sat, 02 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35199.48046875,
+    "Close_Real": 34805.47,
+    "Date": "Sun, 03 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34419.0,
+    "Close_Real": 34330.58,
+    "Date": "Mon, 04 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35137.8203125,
+    "Close_Real": 35109.86,
+    "Date": "Tue, 05 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36331.51171875,
+    "Close_Real": 38300.61,
+    "Date": "Wed, 06 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36152.3203125,
+    "Close_Real": 38461.79,
+    "Date": "Thu, 07 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36130.62109375,
+    "Close_Real": 38792.96,
+    "Date": "Fri, 08 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36081.359375,
+    "Close_Real": 38938.27,
+    "Date": "Sat, 09 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36744.1015625,
+    "Close_Real": 40796.33,
+    "Date": "Sun, 10 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36740.2109375,
+    "Close_Real": 44941.97,
+    "Date": "Mon, 11 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36253.578125,
+    "Close_Real": 44545.96,
+    "Date": "Tue, 12 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37127.12890625,
+    "Close_Real": 45851.32,
+    "Date": "Wed, 13 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35236.25,
+    "Close_Real": 44162.8,
+    "Date": "Thu, 14 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36948.05859375,
+    "Close_Real": 46077.97,
+    "Date": "Fri, 15 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36546.33984375,
+    "Close_Real": 45829.17,
+    "Date": "Sat, 16 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36372.58984375,
+    "Close_Real": 45464.46,
+    "Date": "Sun, 17 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36683.9609375,
+    "Close_Real": 45834.22,
+    "Date": "Mon, 18 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37138.609375,
+    "Close_Real": 46719.05,
+    "Date": "Tue, 19 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37179.73046875,
+    "Close_Real": 47709.9,
+    "Date": "Wed, 20 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37131.30859375,
+    "Close_Real": 49840.85,
+    "Date": "Thu, 21 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36586.37109375,
+    "Close_Real": 50083.28,
+    "Date": "Fri, 22 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36383.9609375,
+    "Close_Real": 49484.44,
+    "Date": "Sat, 23 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36414.87890625,
+    "Close_Real": 49597.94,
+    "Date": "Sun, 24 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33626.3203125,
+    "Close_Real": 47147.8,
+    "Date": "Mon, 25 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35529.6796875,
+    "Close_Real": 46573.83,
+    "Date": "Tue, 26 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36506.80078125,
+    "Close_Real": 48617.84,
+    "Date": "Wed, 27 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36061.3984375,
+    "Close_Real": 48450.74,
+    "Date": "Thu, 28 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36490.98046875,
+    "Close_Real": 49357.81,
+    "Date": "Fri, 29 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35610.3203125,
+    "Close_Real": 48869.24,
+    "Date": "Sat, 30 Nov 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36410.1484375,
+    "Close_Real": 49285.57,
+    "Date": "Sun, 01 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35588.6796875,
+    "Close_Real": 48566.7,
+    "Date": "Mon, 02 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35670.609375,
+    "Close_Real": 48637.17,
+    "Date": "Tue, 03 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36538.30078125,
+    "Close_Real": 50055.48,
+    "Date": "Wed, 04 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35165.21875,
+    "Close_Real": 48961.87,
+    "Date": "Thu, 05 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36463.859375,
+    "Close_Real": 50657.89,
+    "Date": "Fri, 06 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35673.51171875,
+    "Close_Real": 50659.87,
+    "Date": "Sat, 07 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36045.3984375,
+    "Close_Real": 51316.2,
+    "Date": "Sun, 08 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33594.48046875,
+    "Close_Real": 49364.34,
+    "Date": "Mon, 09 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35473.9609375,
+    "Close_Real": 48970.85,
+    "Date": "Tue, 10 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36552.05859375,
+    "Close_Real": 51254.63,
+    "Date": "Wed, 11 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35616.109375,
+    "Close_Real": 50697.38,
+    "Date": "Thu, 12 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36148.6484375,
+    "Close_Real": 51411.12,
+    "Date": "Fri, 13 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35697.578125,
+    "Close_Real": 51360.24,
+    "Date": "Sat, 14 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36610.390625,
+    "Close_Real": 52836.88,
+    "Date": "Sun, 15 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 37008.7109375,
+    "Close_Real": 53707.77,
+    "Date": "Mon, 16 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36378.0390625,
+    "Close_Real": 53747.19,
+    "Date": "Tue, 17 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33660.28125,
+    "Close_Real": 50652.13,
+    "Date": "Wed, 18 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 34706.4609375,
+    "Close_Real": 49342.78,
+    "Date": "Thu, 19 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35681.1015625,
+    "Close_Real": 49484.71,
+    "Date": "Fri, 20 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35702.51171875,
+    "Close_Real": 49195.89,
+    "Date": "Sat, 21 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35079.6484375,
+    "Close_Real": 48125.51,
+    "Date": "Sun, 22 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35689.578125,
+    "Close_Real": 47941.48,
+    "Date": "Mon, 23 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 36442.8203125,
+    "Close_Real": 49949.22,
+    "Date": "Tue, 24 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35832.8203125,
+    "Close_Real": 50261.29,
+    "Date": "Wed, 25 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 33520.7109375,
+    "Close_Real": 48482.18,
+    "Date": "Thu, 26 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35490.8203125,
+    "Close_Real": 47666.36,
+    "Date": "Fri, 27 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35938.66015625,
+    "Close_Real": 48179.34,
+    "Date": "Sat, 28 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35488.2109375,
+    "Close_Real": 47352.82,
+    "Date": "Sun, 29 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35610.87109375,
+    "Close_Real": 46911.09,
+    "Date": "Mon, 30 Dec 2024 00:00:00 GMT"
+  },
+  {
+    "Close_Previsto": 35822.12109375,
+    "Close_Real": 47299.98,
+    "Date": "Tue, 31 Dec 2024 00:00:00 GMT"
+  }
+]

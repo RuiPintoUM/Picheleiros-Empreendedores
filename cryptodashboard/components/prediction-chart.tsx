@@ -12,10 +12,10 @@ import {
   Legend,
 } from "recharts"
 import { useEffect, useState } from "react"
-import { fetchRealPrediction } from "@/lib/data-service" // ✅ NOVO IMPORT
+import { fetchRealPrediction } from "@/lib/data-service"
 
 interface PredictionChartProps {
-  timeframe: string
+  timeframe: string // ex.: "7d", "6m", "1y"
 }
 
 export function PredictionChart({ timeframe }: PredictionChartProps) {
@@ -28,9 +28,31 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
     async function loadData() {
       setLoading(true)
       try {
-        // ✅ Usando dados reais da API
-        const predictionData = await fetchRealPrediction(7)
-        setData(predictionData)
+        // Converter timeframe para o formato esperado pela API
+        let year: number
+        switch (timeframe) {
+          case "7d":
+            year = new Date().getFullYear() // Usa o ano atual para 7 dias
+            break
+          case "6m":
+          case "1y":
+            year = 2024 // Ou ajuste para o ano desejado
+            break
+          default:
+            year = 2024
+        }
+
+        // Chamar a API com o ano
+        const predictionData = await fetchRealPrediction(year)
+        
+        // Transformar os dados da API para o formato esperado pelo gráfico
+        const formattedData = predictionData.map((item: any) => ({
+          name: new Date(item.Date).toLocaleDateString(), // Formatar a data
+          atual: item.Close_Real !== undefined ? item.Close_Real : null,
+          previsto: item.Close_Previsto !== undefined ? item.Close_Previsto : null,
+        }))
+        
+        setData(formattedData)
       } catch (error) {
         console.error("Erro ao carregar previsões reais:", error)
         setData(generateFallbackData())
@@ -42,9 +64,9 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
     loadData()
   }, [timeframe])
 
-  // ✅ Fallback em caso de falha na API
+  // Fallback em caso de falha na API
   const generateFallbackData = () => {
-    const days = 7
+    const days = timeframe === "7d" ? 7 : timeframe === "6m" ? 180 : 365
     const data = []
     let baseValue = 4200
     let predictedValue = 4200

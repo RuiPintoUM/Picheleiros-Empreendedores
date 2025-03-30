@@ -1,60 +1,27 @@
 from flask import Flask, request, jsonify
-import joblib
-import pandas as pd
-from flask_cors import CORS
 import os
-from flask import send_file
-
+from flask_cors import CORS
+from predict import predict_year  # Importe o script (assumindo que está em predict_year.py)
 
 app = Flask(__name__)
 CORS(app)
 
-
-@app.route("/api/crypto/<symbol>", methods=["GET"])
-def get_crypto(symbol):
-    file_path = f"datasets/raw/{symbol.upper()}_USD_2020_2025_Daily.csv"
-    
-    if not os.path.exists(file_path):
-        return jsonify({"error": f"Arquivo {symbol} não encontrado."}), 404
-
-    df = pd.read_csv(file_path)
-    return jsonify(df.to_dict(orient="records"))
-
-
 @app.route('/api/predict', methods=['POST'])
-def predict():
+def predict_year_endpoint():
     try:
-        days = request.json.get("days", 7)
-
-        modelo = joblib.load("model/modelo_previsao.pkl")
-        dados = pd.read_csv("datasets/build/basquet_com_ME.csv")
-        dados['Data'] = pd.to_datetime(dados['Data'])
-
-        entrada = dados[["Open", "fng_value", "Price_diff", "RSI", "MA_14", "ME"]].select_dtypes(include=['number']).iloc[-1:].copy()
-        last_real_value = entrada["Open"].values[0]
-
-        previsoes = []
-
-        for i in range(days):
-            nome_dia = f"Dia {i}"
-            if i == 0:
-                previsoes.append({
-                    "name": nome_dia,
-                    "atual": round(float(last_real_value), 2),
-                    "previsto": None
-                })
-            else:
-                pred = modelo.predict(entrada)[0]
-                previsoes.append({
-                    "name": nome_dia,
-                    "atual": None,
-                    "previsto": round(float(pred), 2)
-                })
-                entrada = entrada.copy()
-                entrada["Open"].iloc[0] = pred
-
-        return jsonify(previsoes)
-
+        year = request.json.get("year", 2024)  # Ano padrão: 2024
+        
+        # Definir caminhos fixos
+        model_path = "model/modelo_xgb.pkl"
+        scaler_path = "model/scaler.pkl"
+        data_path = "datasets/build/basquet_com_ME.csv"
+        
+        # Fazer previsões para o ano
+        resultados = predict_year(model_path, data_path, scaler_path, year)
+        
+        # Converter para formato JSON
+        return jsonify(resultados.to_dict(orient="records"))
+    
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

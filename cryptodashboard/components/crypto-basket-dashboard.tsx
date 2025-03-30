@@ -4,7 +4,7 @@ import {
   fetchLatestBasketClose,
   fetchAllCryptoData,
   calculateBasketPerformance,
-  fetchBasketPrediction, // 👈 ADICIONA isto aqui!
+  fetchBasketPrediction,
 } from "@/lib/data-service"
 import { useState, useEffect } from "react"
 import {
@@ -32,6 +32,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { useTheme } from "next-themes"
 import { BasketAllocationChart } from "@/components/basket-allocation-chart"
 import { BasketInfoCard } from "@/components/basket-info-card"
+
 
 // Componente para exibir o logo da criptomoeda
 function CryptoLogo({ symbol }: { symbol: string }) {
