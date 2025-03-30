@@ -155,20 +155,6 @@ export function CryptoBasketDashboard() {
               <p className="text-muted-foreground">Top 10 criptomoedas baseado em market cap (sem stable coins)</p>
             </div>
             <div className="flex items-center gap-2">
-              <Select defaultValue={timeframe} onValueChange={setTimeframe}>
-                <SelectTrigger className="w-[180px]">
-                  <SelectValue placeholder="Selecionar período" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="24h">24 horas</SelectItem>
-                  <SelectItem value="7d">7 dias</SelectItem>
-                  <SelectItem value="30d">30 dias</SelectItem>
-                  <SelectItem value="90d">90 dias</SelectItem>
-                </SelectContent>
-              </Select>
-              <Button size="icon" variant="outline" onClick={handleRefresh} disabled={loading}>
-                <RefreshCcw className={`h-4 w-4 ${loading ? "animate-spin" : ""}`} />
-              </Button>
             </div>
           </div>
 
@@ -244,7 +230,6 @@ export function CryptoBasketDashboard() {
               <TabsTrigger value="allocation">Alocação</TabsTrigger>
               <TabsTrigger value="prediction">Previsão</TabsTrigger>
               <TabsTrigger value="composition">Composição</TabsTrigger>
-              <TabsTrigger value="history">Histórico</TabsTrigger>
             </TabsList>
             <TabsContent value="allocation" className="space-y-4">
               <div className="grid gap-4 md:grid-cols-2">
@@ -288,19 +273,6 @@ export function CryptoBasketDashboard() {
                 </CardHeader>
                 <CardContent>
                   <CryptoTable />
-                </CardContent>
-              </Card>
-            </TabsContent>
-            <TabsContent value="history" className="space-y-4">
-              <Card>
-                <CardHeader>
-                  <CardTitle>Histórico de Performance</CardTitle>
-                  <CardDescription>Performance histórica do seu basket de criptomoedas</CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="h-[300px] flex items-center justify-center text-muted-foreground">
-                    Dados históricos serão exibidos aqui
-                  </div>
                 </CardContent>
               </Card>
             </TabsContent>

@@ -221,7 +221,7 @@ export async function fetchRealPrediction(days: number = 7): Promise<
     })
 
     if (!res.ok) {
-      throw new Error("Erro ao buscar previsão real")
+      throw new Error("Erro ao procurar previsão real")
     }
 
     return await res.json()
@@ -234,10 +234,10 @@ export async function fetchRealPrediction(days: number = 7): Promise<
 export async function fetchCryptoFromAPI(symbol: string): Promise<CryptoData[]> {
   try {
     const res = await fetch(`http://localhost:5000/api/crypto/${symbol}`)
-    if (!res.ok) throw new Error("Erro ao buscar dados de " + symbol)
+    if (!res.ok) throw new Error("Erro ao procurar dados de " + symbol)
     return await res.json()
   } catch (err) {
-    console.error("Erro ao buscar", symbol, err)
+    console.error("Erro ao procurar", symbol, err)
     return []
   }
 }
