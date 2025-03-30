@@ -2,6 +2,7 @@ from flask import Flask, request, jsonify
 import os
 from flask_cors import CORS
 from predict import predict_year  # Importe o script (assumindo que está em predict_year.py)
+import pandas as pd
 
 app = Flask(__name__)
 CORS(app)
@@ -24,6 +25,16 @@ def predict_year_endpoint():
     
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+
+@app.route("/api/crypto/<symbol>", methods=["GET"])
+def get_crypto(symbol):
+    file_path = f"datasets/raw/{symbol.upper()}_USD_2020_2025_Daily.csv"
+    
+    if not os.path.exists(file_path):
+        return jsonify({"error": f"Arquivo {symbol} não encontrado."}), 404
+
+    df = pd.read_csv(file_path)
+    return jsonify(df.to_dict(orient="records"))
 
 if __name__ == "__main__":
     app.run(debug=True)

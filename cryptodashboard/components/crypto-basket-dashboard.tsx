@@ -78,6 +78,13 @@ export function CryptoBasketDashboard() {
   const [prediction1y, setPrediction1y] = useState<number | null>(null)
   const [loading, setLoading] = useState(true)
   const [lastUpdated, setLastUpdated] = useState(new Date())
+  const prediction6mChange = prediction6m && basketValue
+  ? ((prediction6m - basketValue) / basketValue) * 100
+  : null
+
+const prediction1yChange = prediction1y && basketValue
+  ? ((prediction1y - basketValue) / basketValue) * 100
+  : null
 
   useEffect(() => {
     async function loadData() {
@@ -87,13 +94,17 @@ export function CryptoBasketDashboard() {
         const performanceData = calculateBasketPerformance(cryptoData)
         setPerformance(performanceData)
 
-        const p7d = await fetchBasketPrediction(7)
-        const p6m = await fetchBasketPrediction(180)
-        const p1y = await fetchBasketPrediction(365)
+        const [p7d, p6m, p1y] = await Promise.all([
+          fetchBasketPrediction(7),
+          fetchBasketPrediction(180),
+          fetchBasketPrediction(365),
+        ])
 
         setPrediction7d(p7d)
         setPrediction6m(p6m)
         setPrediction1y(p1y)
+
+        
 
 
         const latestBasketClose = await fetchLatestBasketClose()
@@ -125,6 +136,27 @@ export function CryptoBasketDashboard() {
       console.error("Error refreshing data:", error)
     } finally {
       setLoading(false)
+    }
+  }
+
+  async function fetchBasketPrediction(days: number): Promise<number> {
+    try {
+      const response = await fetch("/api/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ days }),
+      })
+  
+      if (!response.ok) throw new Error("Erro ao buscar previsão")
+  
+      const data = await response.json()
+  
+      // Pega o último valor da previsão
+      const last = data[data.length - 1]
+      return last?.Close_Previsto ?? 0
+    } catch (error) {
+      console.error(`Erro ao buscar previsão de ${days} dias:`, error)
+      return 0
     }
   }
 
@@ -205,7 +237,12 @@ export function CryptoBasketDashboard() {
               </CardHeader>
               <CardContent>
                 <div className="text-2xl font-bold">
-                  {prediction6m ? `$${prediction6m.toLocaleString()}` : "Carregando..."}
+                {prediction6mChange !== null && (
+                  <div className={`flex items-center text-sm ${prediction6mChange >= 0 ? "text-green-500" : "text-red-500"}`}>
+                    {prediction6mChange >= 0 ? <ArrowUp className="mr-1 h-4 w-4" /> : <ArrowDown className="mr-1 h-4 w-4" />}
+                    <span>{prediction6mChange.toFixed(2)}%</span>
+                  </div>
+                )}
                 </div>
                 <div className="text-muted-foreground text-sm">Estimativa para 180 dias</div>
               </CardContent>
