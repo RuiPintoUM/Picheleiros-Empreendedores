@@ -1,53 +1,73 @@
-Data,Evento,Impacto
-2020-01-29,Reunião do FED,Moderado
-2020-03-12,Crypto Crash COVID-19,Muito Alto
-2020-03-18,Reunião do FED,Moderado
-2020-04-29,Reunião do FED,Moderado
-2020-05-11,Bitcoin Halving (2020),Alto
-2020-06-10,Reunião do FED,Moderado
-2020-07-29,Reunião do FED,Moderado
-2020-09-16,Reunião do FED,Moderado
-2020-11-03,Eleições Presidenciais EUA,Alto
-2020-11-05,Reunião do FED,Moderado
-2020-12-01,Ethereum Beacon Chain Launch,Alto
-2020-12-16,Reunião do FED,Moderado
-2021-01-27,Reunião do FED,Moderado
-2021-02-08,Tesla compra Bitcoin,Muito Alto
-2021-03-17,Reunião do FED,Moderado
-2021-04-28,Reunião do FED,Moderado
-2021-05-12,Crash após Elon Musk suspender BTC na Tesla,Muito Alto
-2021-06-16,Reunião do FED,Moderado
-2021-07-28,Reunião do FED,Moderado
-2021-09-07,El Salvador adota Bitcoin,Alto
-2021-09-12,Cardano Alonzo (Smart Contracts),Alto
-2021-09-22,Reunião do FED,Moderado
-2021-11-03,Reunião do FED,Moderado
-2021-11-14,Bitcoin Taproot Upgrade,Moderado
-2021-12-15,Reunião do FED,Moderado
-2022-01-26,Reunião do FED,Moderado
-2022-03-16,Reunião do FED,Moderado
-2022-05-04,Reunião do FED,Moderado
-2022-06-15,Reunião do FED,Moderado
-2022-07-27,Reunião do FED,Moderado
-2022-09-15,Ethereum The Merge,Muito Alto
-2022-09-21,Reunião do FED,Moderado
-2022-11-02,Reunião do FED,Moderado
-2022-11-11,FTX Exchange Colapso,Muito Alto
-2022-12-14,Reunião do FED,Moderado
-2023-02-01,Reunião do FED,Moderado
-2023-03-22,Reunião do FED,Moderado
-2023-04-12,Ethereum Shapella Upgrade,Alto
-2023-05-03,Reunião do FED,Moderado
-2023-06-14,Reunião do FED,Moderado
-2023-07-26,Reunião do FED,Moderado
-2023-09-20,Reunião do FED,Moderado
-2023-11-01,Reunião do FED,Moderado
-2023-12-13,Reunião do FED,Moderado
-2024-01-31,Reunião do FED,Moderado
-2024-03-20,Reunião do FED,Moderado
-2021-05-19,CHINA,alto 
-2021-06-19,CHINA,Alto
-2021-09-24,CHINA,Alto
-2022-05-07,Luna,Alto
-2022-06-19,Luna,Alto
-2021-03-11,US Economic Stimulus Program,Alto
+,Data,Evento,Impacto
+0,2020-01-29,Reunião do FED,Moderado
+1,2020-03-12,Crypto Crash COVID-19,Muito Alto
+2,2020-03-18,Reunião do FED,Moderado
+3,2020-04-29,Reunião do FED,Moderado
+4,2020-05-11,Bitcoin Halving (2020),Alto
+5,2020-06-10,Reunião do FED,Moderado
+6,2020-07-29,Reunião do FED,Moderado
+7,2020-09-16,Reunião do FED,Moderado
+8,2020-11-03,Eleições Presidenciais EUA,Alto
+52,2020-11-03,Eleições EUA 2020,Alto
+9,2020-11-05,Reunião do FED,Moderado
+10,2020-12-01,Ethereum Beacon Chain Launch,Alto
+11,2020-12-16,Reunião do FED,Moderado
+53,2021-01-27,Reunião do FED,Moderado
+12,2021-01-27,Reunião do FED,Moderado
+13,2021-02-08,Tesla compra Bitcoin,Muito Alto
+51,2021-03-11,US Economic Stimulus Program,Alto
+54,2021-03-17,Reunião do FED,Moderado
+14,2021-03-17,Reunião do FED,Moderado
+15,2021-04-28,Reunião do FED,Moderado
+55,2021-04-28,Reunião do FED,Moderado
+16,2021-05-12,Crash após Elon Musk suspender BTC na Tesla,Muito Alto
+46,2021-05-19,CHINA,alto 
+17,2021-06-16,Reunião do FED,Moderado
+56,2021-06-16,Reunião do FED,Moderado
+47,2021-06-19,CHINA,Alto
+57,2021-07-28,Reunião do FED,Moderado
+18,2021-07-28,Reunião do FED,Moderado
+19,2021-09-07,El Salvador adota Bitcoin,Alto
+20,2021-09-12,Cardano Alonzo (Smart Contracts),Alto
+21,2021-09-22,Reunião do FED,Moderado
+58,2021-09-22,Reunião do FED,Moderado
+48,2021-09-24,CHINA,Alto
+22,2021-11-03,Reunião do FED,Moderado
+59,2021-11-03,Reunião do FED,Moderado
+23,2021-11-14,Bitcoin Taproot Upgrade,Moderado
+24,2021-12-15,Reunião do FED,Moderado
+60,2021-12-15,Reunião do FED,Moderado
+61,2022-01-26,Reunião do FED,Moderado
+25,2022-01-26,Reunião do FED,Moderado
+26,2022-03-16,Reunião do FED,Moderado
+62,2022-03-16,Reunião do FED,Alto
+27,2022-05-04,Reunião do FED,Moderado
+63,2022-05-04,Reunião do FED,Alto
+49,2022-05-07,Luna,Alto
+64,2022-06-15,Reunião do FED,Alto
+28,2022-06-15,Reunião do FED,Moderado
+50,2022-06-19,Luna,Alto
+65,2022-07-27,Reunião do FED,Alto
+29,2022-07-27,Reunião do FED,Moderado
+30,2022-09-15,Ethereum The Merge,Muito Alto
+66,2022-09-21,Reunião do FED,Alto
+31,2022-09-21,Reunião do FED,Moderado
+67,2022-11-02,Reunião do FED,Alto
+32,2022-11-02,Reunião do FED,Moderado
+33,2022-11-11,FTX Exchange Colapso,Muito Alto
+68,2022-12-14,Reunião do FED,Alto
+34,2022-12-14,Reunião do FED,Moderado
+35,2023-02-01,Reunião do FED,Moderado
+36,2023-03-22,Reunião do FED,Moderado
+37,2023-04-12,Ethereum Shapella Upgrade,Alto
+38,2023-05-03,Reunião do FED,Moderado
+39,2023-06-14,Reunião do FED,Moderado
+40,2023-07-26,Reunião do FED,Moderado
+41,2023-09-20,Reunião do FED,Moderado
+42,2023-11-01,Reunião do FED,Moderado
+43,2023-12-13,Reunião do FED,Moderado
+44,2024-01-31,Reunião do FED,Moderado
+45,2024-03-20,Reunião do FED,Moderado
+69,2024-11-05,Eleições EUA 2024,Alto
+70,2025-01-29,Reunião do FED,Moderado
+71,2025-03-19,Reunião do FED,Moderado
