@@ -1,29 +1,39 @@
-const express = require('express');
-const { execFile } = require('child_process');
+const express = require("express");
+const fs = require("fs");
+const path = require("path");
+const Papa = require("papaparse");
+const cors = require("cors");
+
 const app = express();
-const port = 3001;
+const PORT = 5000;
 
-app.get('/prever', (req, res) => {
-  const days = req.query.days || '7';
+app.use(cors());
+app.use(express.json());
 
-  execFile('python3', ['predict.py', days], (error, stdout, stderr) => {
-    if (error) {
-      console.error('Erro:', error);
-      console.error(stderr);
-      return res.status(500).json({ error: 'Erro ao gerar previsão' });
-    }
+app.get("/api/crypto/:symbol", (req, res) => {
+  const { symbol } = req.params;
+  const filename = `${symbol}_USD_2020_2025_Daily.csv`;
+  const filepath = path.join(__dirname, "datasets", "raw", filename);
 
-    try {
-      const json = JSON.parse(stdout);
-      res.setHeader('Content-Type', 'application/json');
-      res.json(json);
-    } catch (e) {
-      console.error('Erro ao processar saída do Python:', e);
-      res.status(500).json({ error: 'Erro ao interpretar previsão' });
-    }
-  });
+  try {
+    const csv = fs.readFileSync(filepath, "utf8");
+    Papa.parse(csv, {
+      header: true,
+      dynamicTyping: true,
+      complete: (results) => {
+        const data = results.data.slice(-90); // últimos 90 dias
+        res.json(data);
+      },
+      error: (err) => {
+        console.error("Erro ao ler CSV:", err);
+        res.status(500).json({ error: "Erro ao ler CSV" });
+      },
+    });
+  } catch (err) {
+    res.status(404).json({ error: "Arquivo não encontrado" });
+  }
 });
 
-app.listen(port, () => {
-  console.log(`API ouvindo em http://localhost:${port}`);
+app.listen(PORT, () => {
+  console.log(`API Node.js ativa em http://localhost:${PORT}`);
 });

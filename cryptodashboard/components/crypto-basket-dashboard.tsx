@@ -1,5 +1,11 @@
 "use client"
 
+import {
+  fetchLatestBasketClose,
+  fetchAllCryptoData,
+  calculateBasketPerformance,
+  fetchBasketPrediction, // 👈 ADICIONA isto aqui!
+} from "@/lib/data-service"
 import { useState, useEffect } from "react"
 import {
   ArrowDown,
@@ -26,7 +32,6 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { useTheme } from "next-themes"
 import { BasketAllocationChart } from "@/components/basket-allocation-chart"
 import { BasketInfoCard } from "@/components/basket-info-card"
-import { fetchAllCryptoData, calculateBasketPerformance } from "@/lib/data-service"
 
 // Componente para exibir o logo da criptomoeda
 function CryptoLogo({ symbol }: { symbol: string }) {
@@ -58,13 +63,18 @@ function CryptoLogo({ symbol }: { symbol: string }) {
 export function CryptoBasketDashboard() {
   const [timeframe, setTimeframe] = useState("7d")
   const { theme, setTheme } = useTheme()
+  const [basketValue, setBasketValue] = useState(0)
   const [performance, setPerformance] = useState({
-    totalValue: 4231.89,
-    change24h: 5.2,
-    prediction7d: 8.4,
-    bestPerformer: { symbol: "ETH", change: 12.3 },
-    worstPerformer: { symbol: "XRP", change: -2.1 },
+    totalValue: 0,
+    change24h: 0,
+    prediction7d: 0,
+    bestPerformer: { symbol: "ETH", change: 0 },
+    worstPerformer: { symbol: "XRP", change: 0 },
+    
   })
+  const [prediction7d, setPrediction7d] = useState<number | null>(null)
+  const [prediction6m, setPrediction6m] = useState<number | null>(null)
+  const [prediction1y, setPrediction1y] = useState<number | null>(null)
   const [loading, setLoading] = useState(true)
   const [lastUpdated, setLastUpdated] = useState(new Date())
 
@@ -75,9 +85,22 @@ export function CryptoBasketDashboard() {
         const cryptoData = await fetchAllCryptoData()
         const performanceData = calculateBasketPerformance(cryptoData)
         setPerformance(performanceData)
+
+        const p7d = await fetchBasketPrediction(7)
+        const p6m = await fetchBasketPrediction(180)
+        const p1y = await fetchBasketPrediction(365)
+
+        setPrediction7d(p7d)
+        setPrediction6m(p6m)
+        setPrediction1y(p1y)
+
+
+        const latestBasketClose = await fetchLatestBasketClose()
+        setBasketValue(latestBasketClose)
+
         setLastUpdated(new Date())
       } catch (error) {
-        console.error("Error loading performance data:", error)
+        console.error("Error loading dashboard data:", error)
       } finally {
         setLoading(false)
       }
@@ -92,6 +115,10 @@ export function CryptoBasketDashboard() {
       const cryptoData = await fetchAllCryptoData()
       const performanceData = calculateBasketPerformance(cryptoData)
       setPerformance(performanceData)
+
+      const latestBasketClose = await fetchLatestBasketClose()
+      setBasketValue(latestBasketClose)
+
       setLastUpdated(new Date())
     } catch (error) {
       console.error("Error refreshing data:", error)
@@ -146,28 +173,18 @@ export function CryptoBasketDashboard() {
           </div>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+            {/* Valor Total do Basket com valor real do CSV */}
             <Card>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium">Valor Total do Basket</CardTitle>
                 <DollarSign className="h-4 w-4 text-muted-foreground" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">${performance.totalValue.toLocaleString()}</div>
-                <div
-                  className={`flex items-center text-sm ${performance.change24h >= 0 ? "text-green-500" : "text-red-500"}`}
-                >
-                  {performance.change24h >= 0 ? (
-                    <ArrowUp className="mr-1 h-4 w-4" />
-                  ) : (
-                    <ArrowDown className="mr-1 h-4 w-4" />
-                  )}
-                  <span>
-                    {performance.change24h >= 0 ? "+" : ""}
-                    {performance.change24h}%
-                  </span>
-                </div>
+                <div className="text-2xl font-bold">${basketValue.toLocaleString()}</div>
               </CardContent>
             </Card>
+
+            {/* Previsão baseada na performance calculada */}
             <Card>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                 <CardTitle className="text-sm font-medium">Previsão (7 dias)</CardTitle>
@@ -175,7 +192,7 @@ export function CryptoBasketDashboard() {
               </CardHeader>
               <CardContent>
                 <div className="text-2xl font-bold">
-                  ${(performance.totalValue * (1 + performance.prediction7d / 100)).toLocaleString()}
+                  ${(basketValue * (1 + performance.prediction7d / 100)).toLocaleString()}
                 </div>
                 <div
                   className={`flex items-center text-sm ${performance.prediction7d >= 0 ? "text-green-500" : "text-red-500"}`}
@@ -192,38 +209,34 @@ export function CryptoBasketDashboard() {
                 </div>
               </CardContent>
             </Card>
-            <Card>
+
+            {/* Melhor e Pior Performer */}
+              <Card>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Melhor Performer</CardTitle>
-                <BarChart3 className="h-4 w-4 text-muted-foreground" />
+                <CardTitle className="text-sm font-medium">Previsão (6 meses)</CardTitle>
+                <LineChart className="h-4 w-4 text-muted-foreground" />
               </CardHeader>
               <CardContent>
-                <div className="flex items-center gap-2">
-                  <CryptoLogo symbol={performance.bestPerformer.symbol} />
-                  <div className="text-2xl font-bold">{performance.bestPerformer.symbol}</div>
+                <div className="text-2xl font-bold">
+                  {prediction6m ? `$${prediction6m.toLocaleString()}` : "Carregando..."}
                 </div>
-                <div className="flex items-center text-sm text-green-500 mt-1">
-                  <ArrowUp className="mr-1 h-4 w-4" />
-                  <span>+{performance.bestPerformer.change}%</span>
-                </div>
+                <div className="text-muted-foreground text-sm">Estimativa para 180 dias</div>
               </CardContent>
             </Card>
+
             <Card>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium">Pior Performer</CardTitle>
-                <CandlestickChart className="h-4 w-4 text-muted-foreground" />
+                <CardTitle className="text-sm font-medium">Previsão (1 ano)</CardTitle>
+                <LineChart className="h-4 w-4 text-muted-foreground" />
               </CardHeader>
               <CardContent>
-                <div className="flex items-center gap-2">
-                  <CryptoLogo symbol={performance.worstPerformer.symbol} />
-                  <div className="text-2xl font-bold">{performance.worstPerformer.symbol}</div>
+                <div className="text-2xl font-bold">
+                  {prediction1y ? `$${prediction1y.toLocaleString()}` : "Carregando..."}
                 </div>
-                <div className="flex items-center text-sm text-red-500 mt-1">
-                  <ArrowDown className="mr-1 h-4 w-4" />
-                  <span>{performance.worstPerformer.change}%</span>
-                </div>
+                <div className="text-muted-foreground text-sm">Estimativa para 365 dias</div>
               </CardContent>
             </Card>
+
           </div>
 
           <Tabs defaultValue="allocation" className="space-y-4">
@@ -311,4 +324,3 @@ export function CryptoBasketDashboard() {
     </ThemeProvider>
   )
 }
-
