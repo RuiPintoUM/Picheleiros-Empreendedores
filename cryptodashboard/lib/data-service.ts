@@ -240,5 +240,19 @@ export async function fetchCryptoFromAPI(symbol: string): Promise<CryptoData[]> 
   }
 }
 
+export async function fetchLatestBasketClose(): Promise<number> {
+  try {
+    const data = await fetchBasketData()
+    if (!data.length) return 0
 
+    const sorted = [...data].sort(
+      (a, b) => new Date(a.Date).getTime() - new Date(b.Date).getTime()
+    )
 
+    const last = sorted[sorted.length - 1]
+    return Number(last.Close)
+  } catch (err) {
+    console.error("Erro ao buscar valor total do basket:", err)
+    return 0
+  }
+}
