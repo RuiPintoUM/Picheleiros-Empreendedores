@@ -207,19 +207,6 @@ export function CryptoBasketDashboard() {
                 <div className="text-2xl font-bold">
                   ${2831.26}
                 </div>
-                <div
-                  className={`flex items-center text-sm ${performance.prediction7d >= 0 ? "text-green-500" : "text-red-500"}`}
-                >
-                  {performance.prediction7d >= 0 ? (
-                    <ArrowUp className="mr-1 h-4 w-4" />
-                  ) : (
-                    <ArrowDown className="mr-1 h-4 w-4" />
-                  )}
-                  <span>
-                    {performance.prediction7d >= 0 ? "+" : ""}
-                    {performance.prediction7d}%
-                  </span>
-                </div>
               </CardContent>
             </Card>
 
