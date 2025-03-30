@@ -70,14 +70,18 @@ export async function fetchCryptoData(symbol: string): Promise<CryptoData[]> {
 
 // Function to fetch all crypto data
 export async function fetchAllCryptoData(): Promise<Record<string, CryptoData[]>> {
-  const [ada, bnb, btc] = await Promise.all([fetchCryptoData("ada"), fetchCryptoData("bnb"), fetchCryptoData("btc")])
+  const symbols = ["BTC", "ETH", "ADA", "BNB", "SOL", "XRP", "DOGE", "LINK", "TRX", "TON"];
+  const results = await Promise.all(symbols.map(fetchCryptoFromAPI));
 
-  return {
-    ADA: ada,
-    BNB: bnb,
-    BTC: btc,
-  }
+  const data: Record<string, CryptoData[]> = {};
+  symbols.forEach((s, i) => {
+    data[s] = results[i];
+  });
+
+  return data;
 }
+
+
 
 // Function to process data for prediction chart
 export function processPredictionData(data: BasketData[], timeframe: string): any[] {
@@ -115,140 +119,48 @@ export function getCryptoAllocation(cryptoData: Record<string, CryptoData[]>): a
   ]
 }
 
-// Function to get crypto table data
 export function getCryptoTableData(cryptoData: Record<string, CryptoData[]>): any[] {
-  const result = []
+  const result: any[] = []
 
-  // Process BTC data
-  if (cryptoData.BTC && cryptoData.BTC.length > 0) {
-    const btcData = cryptoData.BTC
-    const latestBtc = btcData[btcData.length - 1]
-    const prevBtc = btcData[btcData.length - 2]
-    const change24h = ((latestBtc.Close - prevBtc.Close) / prevBtc.Close) * 100
+  const processCoin = (
+    symbol: string,
+    name: string,
+    allocation: number,
+    predictionMultiplier: number
+  ) => {
+    const data = cryptoData[symbol]
+    if (data && data.length > 1) {
+      const latest = data[data.length - 1]
+      const prev = data[data.length - 2]
+      const change = ((latest.Close - prev.Close) / prev.Close) * 100
 
-    result.push({
-      id: "btc",
-      name: "Bitcoin",
-      symbol: "BTC",
-      price: Number.parseFloat(latestBtc.Close.toString()),
-      allocation: 50,
-      change24h: Number.parseFloat(change24h.toFixed(2)),
-      prediction7d: Number.parseFloat((change24h * 1.5).toFixed(2)), // Simple prediction
-    })
-  }
-
-  // Process BNB data
-  if (cryptoData.BNB && cryptoData.BNB.length > 0) {
-    const bnbData = cryptoData.BNB
-    const latestBnb = bnbData[bnbData.length - 1]
-    const prevBnb = bnbData[bnbData.length - 2]
-    const change24h = ((latestBnb.Close - prevBnb.Close) / prevBnb.Close) * 100
-
-    result.push({
-      id: "bnb",
-      name: "Binance Coin",
-      symbol: "BNB",
-      price: latestBnb.Close,
-      allocation: 6,
-      change24h: Number.parseFloat(change24h.toFixed(2)),
-      prediction7d: Number.parseFloat((change24h * 1.2).toFixed(2)), // Simple prediction
-    })
-  }
-
-  // Process ADA data
-  if (cryptoData.ADA && cryptoData.ADA.length > 0) {
-    const adaData = cryptoData.ADA
-    const latestAda = adaData[adaData.length - 1]
-    const prevAda = adaData[adaData.length - 2]
-    const change24h = ((latestAda.Close - prevAda.Close) / prevAda.Close) * 100
-
-    result.push({
-      id: "ada",
-      name: "Cardano",
-      symbol: "ADA",
-      price: latestAda.Close,
-      allocation: 8,
-      change24h: Number.parseFloat(change24h.toFixed(2)),
-      prediction7d: Number.parseFloat((change24h * 1.1).toFixed(2)), // Simple prediction
-    })
-  }
-
-  // Add other cryptocurrencies with mock data to complete the table
-  const mockData = [
-    {
-      id: "eth",
-      name: "Ethereum",
-      symbol: "ETH",
-      price: 3543.67,
-      allocation: 16,
-      change24h: 4.1,
-      prediction7d: 12.3,
-    },
-    {
-      id: "xrp",
-      name: "XRP",
-      symbol: "XRP",
-      price: 0.54,
-      allocation: 4,
-      change24h: -2.1,
-      prediction7d: -1.3,
-    },
-    {
-      id: "sol",
-      name: "Solana",
-      symbol: "SOL",
-      price: 148.76,
-      allocation: 5,
-      change24h: 6.7,
-      prediction7d: 9.2,
-    },
-    {
-      id: "doge",
-      name: "Dogecoin",
-      symbol: "DOGE",
-      price: 0.15,
-      allocation: 4,
-      change24h: 3.2,
-      prediction7d: 7.5,
-    },
-    {
-      id: "trx",
-      name: "TRON",
-      symbol: "TRX",
-      price: 0.12,
-      allocation: 3,
-      change24h: 0.9,
-      prediction7d: 2.1,
-    },
-    {
-      id: "ton",
-      name: "Toncoin",
-      symbol: "TON",
-      price: 5.67,
-      allocation: 2,
-      change24h: 5.3,
-      prediction7d: 8.7,
-    },
-    {
-      id: "link",
-      name: "Chainlink",
-      symbol: "LINK",
-      price: 14.32,
-      allocation: 2,
-      change24h: 4.5,
-      prediction7d: 10.2,
-    },
-  ]
-
-  // Add mock data for cryptocurrencies not in our dataset
-  mockData.forEach((mock) => {
-    if (!result.find((item) => item.id === mock.id)) {
-      result.push(mock)
+      result.push({
+        id: symbol.toLowerCase(),
+        name,
+        symbol,
+        price: latest.Close,
+        allocation,
+        change24h: Number(change.toFixed(2)),
+        prediction7d: Number((change * predictionMultiplier).toFixed(2)),
+      })
     }
-  })
+  }
+
+  // Processar todas as moedas
+  processCoin("BTC", "Bitcoin", 50, 1.5)
+  processCoin("ETH", "Ethereum", 16, 1.4)
+  processCoin("ADA", "Cardano", 8, 1.1)
+  processCoin("BNB", "Binance Coin", 6, 1.2)
+  processCoin("SOL", "Solana", 5, 1.3)
+  processCoin("XRP", "XRP", 4, 1.0)
+  processCoin("DOGE", "Dogecoin", 4, 1.2)
+  processCoin("LINK", "Chainlink", 2, 1.4)
+  processCoin("TRX", "TRON", 3, 1.1)
+  processCoin("TON", "Toncoin", 2, 1.3)
 
   return result
 }
+
 
 // Function to calculate basket performance
 export function calculateBasketPerformance(cryptoData: Record<string, CryptoData[]>): {
@@ -316,5 +228,17 @@ export async function fetchRealPrediction(days: number = 7): Promise<
     return []
   }
 }
+
+export async function fetchCryptoFromAPI(symbol: string): Promise<CryptoData[]> {
+  try {
+    const res = await fetch(`http://localhost:5000/api/crypto/${symbol}`)
+    if (!res.ok) throw new Error("Erro ao buscar dados de " + symbol)
+    return await res.json()
+  } catch (err) {
+    console.error("Erro ao buscar", symbol, err)
+    return []
+  }
+}
+
 
 

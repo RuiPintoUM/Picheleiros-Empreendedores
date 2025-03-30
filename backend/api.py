@@ -2,9 +2,24 @@ from flask import Flask, request, jsonify
 import joblib
 import pandas as pd
 from flask_cors import CORS
+import os
+from flask import send_file
+
 
 app = Flask(__name__)
 CORS(app)
+
+
+@app.route("/api/crypto/<symbol>", methods=["GET"])
+def get_crypto(symbol):
+    file_path = f"datasets/raw/{symbol.upper()}_USD_2020_2025_Daily.csv"
+    
+    if not os.path.exists(file_path):
+        return jsonify({"error": f"Arquivo {symbol} não encontrado."}), 404
+
+    df = pd.read_csv(file_path)
+    return jsonify(df.to_dict(orient="records"))
+
 
 @app.route('/api/predict', methods=['POST'])
 def predict():
