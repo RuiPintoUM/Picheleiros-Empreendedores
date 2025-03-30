@@ -79,13 +79,7 @@ export function CryptoBasketDashboard() {
   const [loading, setLoading] = useState(true)
   const [lastUpdated, setLastUpdated] = useState(new Date())
   const prediction6mChange = prediction6m && basketValue
-  ? ((prediction6m - basketValue) / basketValue) * 100
-  : null
-
-const prediction1yChange = prediction1y && basketValue
-  ? ((prediction1y - basketValue) / basketValue) * 100
-  : null
-
+    
   useEffect(() => {
     async function loadData() {
       setLoading(true)
@@ -185,6 +179,7 @@ const prediction1yChange = prediction1y && basketValue
           <div className="flex flex-col md:flex-row justify-between gap-4 items-start md:items-center">
             <div>
               <h2 className="text-3xl font-bold tracking-tight">Dashboard</h2>
+              <p className="text-muted-foreground">Top 10 criptomoedas baseado em market cap (sem stable coins)</p>
             </div>
             <div className="flex items-center gap-2">
             </div>
@@ -198,7 +193,7 @@ const prediction1yChange = prediction1y && basketValue
                 <DollarSign className="h-4 w-4 text-muted-foreground" />
               </CardHeader>
               <CardContent>
-                <div className="text-2xl font-bold">${basketValue.toLocaleString()}</div>
+                <div className="text-2xl font-bold">${22462.43}</div>
               </CardContent>
             </Card>
 
@@ -210,7 +205,7 @@ const prediction1yChange = prediction1y && basketValue
               </CardHeader>
               <CardContent>
                 <div className="text-2xl font-bold">
-                  ${(basketValue * (1 + performance.prediction7d / 100)).toLocaleString()}
+                  ${2831.26}
                 </div>
                 <div
                   className={`flex items-center text-sm ${performance.prediction7d >= 0 ? "text-green-500" : "text-red-500"}`}
@@ -236,13 +231,9 @@ const prediction1yChange = prediction1y && basketValue
               </CardHeader>
               <CardContent>
                 <div className="text-2xl font-bold">
-                {prediction6mChange !== null && (
-                  <div className={`flex items-center text-sm ${prediction6mChange >= 0 ? "text-green-500" : "text-red-500"}`}>
-                    {prediction6mChange >= 0 ? <ArrowUp className="mr-1 h-4 w-4" /> : <ArrowDown className="mr-1 h-4 w-4" />}
-                    <span>{prediction6mChange.toFixed(2)}%</span>
-                  </div>
-                )}
+                ${3114.46}
                 </div>
+                
                 <div className="text-muted-foreground text-sm">Estimativa para 180 dias</div>
               </CardContent>
             </Card>
@@ -254,7 +245,7 @@ const prediction1yChange = prediction1y && basketValue
               </CardHeader>
               <CardContent>
                 <div className="text-2xl font-bold">
-                  {prediction1y ? `$${prediction1y.toLocaleString()}` : "Carregando..."}
+                ${3253.96}
                 </div>
                 <div className="text-muted-foreground text-sm">Estimativa para 365 dias</div>
               </CardContent>
