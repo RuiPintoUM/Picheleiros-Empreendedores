@@ -100,15 +100,6 @@ export function BasketAllocationChart() {
                 <Cell key={`cell-${index}`} fill={entry.color} />
               ))}
             </Pie>
-            <Tooltip
-              formatter={(value) => [`${value}%`, "Alocação"]}
-              contentStyle={{
-                backgroundColor: isDark ? "#1f2937" : "#fff",
-                borderColor: isDark ? "#374151" : "#e5e7eb",
-                color: isDark ? "#fff" : "#000",
-                borderRadius: "0.5rem",
-              }}
-            />
           </PieChart>
         </ResponsiveContainer>
       </div>
