@@ -131,7 +131,7 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
             dataKey="atual"
             stroke="#3b82f6"
             strokeWidth={2}
-            dot={{ r: 4 }}
+            dot={{ r: 0 }}
             activeDot={{ r: 6 }}
             name="Valor Atual"
           />
@@ -141,7 +141,7 @@ export function PredictionChart({ timeframe }: PredictionChartProps) {
             stroke="#10b981"
             strokeWidth={2}
             strokeDasharray="5 5"
-            dot={{ r: 4 }}
+            dot={{ r: 0 }}
             activeDot={{ r: 6 }}
             name="Previsão"
           />
