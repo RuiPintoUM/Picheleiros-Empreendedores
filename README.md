@@ -1,4 +1,4 @@
-# Crypto Basket Price Predictor – 1st Place Hackathon Project
+# Crypto Basket Price Predictor – 1st Place Hackathon Project Theme
 
 This project was developed during a 48-hour Hackathon organized for Uphold, under the theme: "Crypto Basket Price Predictor".
 We are proud to announce that our solution won 🥇1st place in this challenge!
